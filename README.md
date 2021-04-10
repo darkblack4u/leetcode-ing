@@ -5,3 +5,6 @@
 #### 字符串
 
 - [3. 无重复字符的最长子串](lengthOfLongestSubstring.py)
+
+
+> VSCODE的GIT命令不好使，直接git push origin master:master
