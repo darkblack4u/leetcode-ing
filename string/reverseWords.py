@@ -32,36 +32,36 @@ class Solution:
         
 
 
-class Solution:
-    """
-    # 执行用时： 60 ms  , 在所有 Python3 提交中击败了 10.7% 的用户
-    # 内存消耗： 15 MB , 在所有 Python3 提交中击败了 38.2% 的用户
-    """
-    def reverseWords(self, s: str) -> str:
-        if s == "":
-            return  ""
-        pos = True
-        isFirst = True
-        out = ""
-        subString = ""
-        for i in range(len(s)):
-            if s[i] == " " :
-                if pos: continue
-                else:
-                    if isFirst: out = subString
-                    else: out = subString + " " + out
-                    subString = ""
-                    isFirst = False
-                pos = True
-            else:
-                subString = subString + s[i]
-                pos = False
-        if pos:
-            return out
-        else:
-            if isFirst: 
-                return subString 
-            else: 
-                return subString + " " + out
+# class Solution:
+#     """
+#     # 执行用时： 60 ms  , 在所有 Python3 提交中击败了 10.7% 的用户
+#     # 内存消耗： 15 MB , 在所有 Python3 提交中击败了 38.2% 的用户
+#     """
+#     def reverseWords(self, s: str) -> str:
+#         if s == "":
+#             return  ""
+#         pos = True
+#         isFirst = True
+#         out = ""
+#         subString = ""
+#         for i in range(len(s)):
+#             if s[i] == " " :
+#                 if pos: continue
+#                 else:
+#                     if isFirst: out = subString
+#                     else: out = subString + " " + out
+#                     subString = ""
+#                     isFirst = False
+#                 pos = True
+#             else:
+#                 subString = subString + s[i]
+#                 pos = False
+#         if pos:
+#             return out
+#         else:
+#             if isFirst: 
+#                 return subString 
+#             else: 
+#                 return subString + " " + out
         
 
