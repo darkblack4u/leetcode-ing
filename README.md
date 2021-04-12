@@ -1,10 +1,11 @@
-> Keep Smart in the old age
+> Keep Smart, Prevent Alzheimer
 
-### 索引
+### LeetCode索引
 
 #### 字符串
 
-- [3. 无重复字符的最长子串](lengthOfLongestSubstring.py)
-- [415. 字符串相加](addStrings.py)
+- [3. 无重复字符的最长子串](string/lengthOfLongestSubstring.py)
+- [392. 判断子序列](string/isSubsequence.py)
+- [415. 字符串相加](string/addStrings.py)
 
 > VSCODE的GIT命令不好使，直接git push origin master:master
