@@ -18,8 +18,8 @@
 
 #### 二叉搜索树
 
+- [95. 不同的二叉搜索树 II](binarysearcgtree/generateTrees.py)
 - [96. 不同的二叉搜索树](binarysearcgtree/numTrees.py)
-
 
 #### 面试题
 
