@@ -13,6 +13,8 @@
 #### 二叉树
 
 - [94. 二叉树的中序遍历](binarytree/inorderTraversal.py)
+- [102. 二叉树的层序遍历](binarytree/levelOrder.py)
+
 
 #### 面试题
 
