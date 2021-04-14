@@ -1,4 +1,6 @@
 > Keep Smart, Prevent Alzheimer
+> mark: https://github.com/afatcoder/LeetcodeTop
+> mark: https://leetcode-cn.com/problems/
 
 ### LeetCode索引
 
