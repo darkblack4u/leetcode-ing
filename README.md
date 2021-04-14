@@ -16,6 +16,10 @@
 - [102. 二叉树的层序遍历](binarytree/levelOrder.py)
 - [103. 二叉树的锯齿形层序遍历](binarytree/zigzagLevelOrder.py)
 
+#### 二叉搜索树
+
+- [96. 不同的二叉搜索树](binarysearcgtree/numTrees.py)
+
 
 #### 面试题
 
