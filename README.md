@@ -15,14 +15,17 @@
 #### 二叉树
 
 - [94. 二叉树的中序遍历](binarytree/inorderTraversal.py)
+- [101. 对称二叉树](binarytree/isSymmetric.py)
 - [102. 二叉树的层序遍历](binarytree/levelOrder.py)
 - [103. 二叉树的锯齿形层序遍历](binarytree/zigzagLevelOrder.py)
+- [105. 从前序与中序遍历序列构造二叉树](binarytree/buildTree.py)
 
 #### 二叉搜索树
 
 - [95. 不同的二叉搜索树 II](binarysearcgtree/generateTrees.py)
 - [96. 不同的二叉搜索树](binarysearcgtree/numTrees.py)
-
+- [98. 验证二叉搜索树](binarysearcgtree/isValidBST.py)
+- [99. 恢复二叉搜索树](binarysearcgtree/recoverTree.py)
 #### 面试题
 
 - [面试题 16.25. LRU 缓存](LRUCache.py)
