@@ -30,8 +30,16 @@
 - [96. 不同的二叉搜索树](binarysearcgtree/numTrees.py)
 - [98. 验证二叉搜索树](binarysearcgtree/isValidBST.py)
 - [99. 恢复二叉搜索树](binarysearcgtree/recoverTree.py)
+- [538. 把二叉搜索树转换为累加树](binarysearcgtree/convertBST.py)
+
+#### 其他
+
+- [146. LRU 缓存机制](mianshiti/LRUCache.py)
+
 #### 面试题
 
-- [面试题 16.25. LRU 缓存](LRUCache.py)
+- [面试题 16.25. LRU 缓存](mianshiti/LRUCache.py)
+
+
 
 > VSCODE的GIT命令不好使，直接git push origin master:master
