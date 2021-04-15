@@ -1,14 +1,14 @@
 '''
-106. 从中序与后序遍历序列构造二叉树
-根据一棵树的中序遍历与后序遍历构造二叉树。
+105. 从前序与中序遍历序列构造二叉树
+根据一棵树的前序遍历与中序遍历构造二叉树。
 
 注意:
 你可以假设树中没有重复的元素。
 
 例如，给出
 
+前序遍历 preorder = [3,9,20,15,7]
 中序遍历 inorder = [9,3,15,20,7]
-后序遍历 postorder = [9,15,7,20,3]
 返回如下的二叉树：
 
     3
@@ -36,9 +36,9 @@ class Solution:
             root = postorder[-1]
             index = inorder.index(root)
             if index == 0:
-                return TreeNode(root, None, self.buildTree(postorder[:len(postorder) - 1], inorder[1: len(postorder)]))
+                return TreeNode(root, None, self.buildTree(inorder[1: len(postorder)], postorder[:len(postorder) - 1]))
             elif index == len(inorder) - 1:
-                return TreeNode(root, self.buildTree(postorder[:len(postorder) - 1], inorder[0: len(postorder) - 1]), None)
+                return TreeNode(root, self.buildTree(inorder[0: len(postorder) - 1], postorder[:len(postorder) - 1]), None)
             else:
                 postorder_left = postorder[0:index]
                 postorder_right = postorder[index: len(postorder) - 1]

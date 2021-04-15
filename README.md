@@ -1,5 +1,7 @@
 > Keep Smart, Prevent Alzheimer
+>
 > mark: https://github.com/afatcoder/LeetcodeTop
+>
 > mark: https://leetcode-cn.com/problems/
 
 ### LeetCode索引
@@ -19,6 +21,8 @@
 - [102. 二叉树的层序遍历](binarytree/levelOrder.py)
 - [103. 二叉树的锯齿形层序遍历](binarytree/zigzagLevelOrder.py)
 - [105. 从前序与中序遍历序列构造二叉树](binarytree/buildTree.py)
+- [106. 从中序与后序遍历序列构造二叉树](binarytree/buildTree2.py)
+- [107. 二叉树的层序遍历 II](binarytree/levelOrderBottom.py)
 
 #### 二叉搜索树
 
