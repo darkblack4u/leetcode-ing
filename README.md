@@ -6,6 +6,10 @@
 
 ### LeetCode索引
 
+#### 二分查找
+
+- [35. 搜索插入位置](binarysearch/searchInsert.py)
+
 #### 字符串
 
 - [3. 无重复字符的最长子串](string/lengthOfLongestSubstring.py)
