@@ -44,6 +44,16 @@
 
 - [面试题 16.25. LRU 缓存](mianshiti/LRUCache.py)
 
+#### java 200题
 
+- [JAVA基础](java200/BasicJava.md)
+- [异常](java200/Exception.md)
+- [JVM](java200/JVM.md)
+- [MySQL](java200/MySQL.md)
+- [网络](java200/Network.md)
+
+————————————————
+
+原文链接：https://blog.csdn.net/sufu1065/article/details/88051083
 
 > VSCODE的GIT命令不好使，直接git push origin master:master
