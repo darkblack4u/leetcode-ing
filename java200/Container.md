@@ -63,19 +63,92 @@ HashSet中add方法调用的是底层HashMap中的put()方法，而如果是在H
 综合来说，在需要频繁读取集合中的元素时，更推荐使用 ArrayList，而在插入和删除操作较多时，更推荐使用 LinkedList。
 ```
 **26.如何实现数组和 List 之间的转换？**
+```
+数组转 List ，使用 JDK 中 java.util.Arrays 工具类的 asList 方法
+public static void testArray2List() {
+    String[] strs = new String[] {"aaa", "bbb", "ccc"};
+    List<String> list = Arrays.asList(strs);
+    for (String s : list) {
+        System.out.println(s);
+    }
+}
+List 转数组，使用 List 的toArray方法。无参toArray方法返回Object数组，传入初始化长度的数组对象，返回该对象数组
+public static void testList2Array() {
+    List<String> list = Arrays.asList("aaa", "bbb", "ccc");
+    String[] array = list.toArray(new String[list.size()]);
+    for (String s : array) {
+        System.out.println(s);
+    }
+}
 
-27.ArrayList 和 Vector 的区别是什么？
+```
 
-28.Array 和 ArrayList 有何区别？
+**27.ArrayList 和 Vector 的区别是什么？**
+```
+线程安全：Vector 使用了 Synchronized 来实现线程同步，是线程安全的，而 ArrayList 是非线程安全的。
+性能：ArrayList 在性能方面要优于 Vector。
+扩容：ArrayList 和 Vector 都会根据实际的需要动态的调整容量，
+     只不过在 Vector 扩容每次会增加 1 倍，而 ArrayList 只会增加 50%。
+```
+**28.Array 和 ArrayList 有何区别？**
+```
+①Array是Java中的数组，声明数组有三种方式
+int[] a=new int[10];
+int a[]=new int[10];
+int a[]={1,2,3,4};
+可以看出：在定义一个数组的时候，必须指定这个数组的数据类型及数组的大小，也就是说数组中存放的元素个数固定并且类型一样
 
-29.在 Queue 中 poll()和 remove()有什么区别？
+②ArrayList是动态数组,也就是数组的复杂版本，它可以动态的添加和删除元素，被称为”集合“，集合的声明如下
+ArrayList list = new ArrayList(10);
+ArrayList list1 = new ArrayList();
+可以看出：在不使用泛型的情况下，这个list是可以添加进不同类型的元素的，而且arraylist是可以不用指定长度的。在使用泛型时，我们就只能添加一种类型的数据了
+```
+**29.在 Queue 中 poll()和 remove()有什么区别？**
+```
+poll()和remove()都将移除并且返回队列头，但是在poll()在队列为空时返回null，而remove()会抛出NoSuchElementException异常。
+```
 
-30.哪些集合类是线程安全的？
+**30.哪些集合类是线程安全的？**
+```
+Vector
+Stack
+Hashtable
+java.util.concurrent 包下所有的集合类 ArrayBlockingQueue、ConcurrentHashMap、ConcurrentLinkedQueue、ConcurrentLinkedDeque...
+```
+**31.迭代器 Iterator 是什么？**
+```
 
-31.迭代器 Iterator 是什么？
+```
+**32.Iterator 怎么使用？有什么特点？**
+```
+例如Java的Iterator只能单向移动，它能用来：
+（1）使用方法Iterator（）要求容器返回一个Iterator。Iterator将准备好返回序列的第一个元素。
+（2）使用next（）获得序列中的下一个元素
+（3）使用hasNext（）检查序列中是否还有元素。
+（4）使用remove（）将迭代器新近返回的元素删除。
+Iterator的一个很强的用处：能够将遍历序列的操作与序列底层的结构分离。
+```
 
-32.Iterator 怎么使用？有什么特点？
+**33.Iterator 和 ListIterator 有什么区别？**
+```
+ListIterator 继承 Iterator
+ListIterator 比 Iterator多方法
+          add(E e)  将指定的元素插入列表，插入位置为迭代器当前位置之前
+          set(E e)  迭代器返回的最后一个元素替换参数e
+          hasPrevious()  迭代器当前位置，反向遍历集合是否含有元素
+          previous()  迭代器当前位置，反向遍历集合，下一个元素
+          previousIndex()  迭代器当前位置，反向遍历集合，返回下一个元素的下标
+          nextIndex()  迭代器当前位置，返回下一个元素的下标
 
-33.Iterator 和 ListIterator 有什么区别？
-
-34.怎么确保一个集合不能被修改？
+使用范围不同，Iterator可以迭代所有集合；ListIterator 只能用于List及其子类
+ListIterator 有 add 方法，可以向 List 中添加对象；Iterator 不能
+ListIterator 有 hasPrevious() 和 previous() 方法，可以实现逆向遍历；Iterator不可以
+ListIterator 有 nextIndex() 和previousIndex() 方法，可定位当前索引的位置；Iterator不可以
+ListIterator 有 set()方法，可以实现对 List 的修改；Iterator 仅能遍历，不能修改
+```
+**34.怎么确保一个集合不能被修改？**
+```
+目前查到有两种方法：
+（1）通过 Collections.unmodifiableCollection(Collection c)
+（2）通过Arrays.asList创建的集合
+```
