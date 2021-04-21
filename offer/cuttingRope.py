@@ -40,3 +40,16 @@ class Solution:
                 m = max(m, self.cuttingRope(i) * self.cuttingRope(n - i))
         self.count[n] = m
         return m
+class Solution:
+    def cuttingRope(self, n: int) -> int:
+        if n == 2: return 1
+        if n == 3: return 2
+        a, b = n // 3, n % 3
+        if b == 1:
+            a -= 1
+            b = 4
+            return ((3 ** a) * 4)
+        elif b == 2:
+            return ((3 ** a) * 2)
+        else:
+            return (3 ** a)
