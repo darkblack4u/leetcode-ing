@@ -65,8 +65,14 @@
 - [剑指 Offer 27. 二叉树的镜像](offer/mirrorTree.py)
 - [剑指 Offer 28. 对称的二叉树](offer/isSymmetric.py)
 - [剑指 Offer 29. 顺时针打印矩阵](offer/spiralOrder.py)  
+- [剑指 Offer 49. 丑数](offer/nthUglyNumber.py)  
 - [剑指 Offer 55 - I. 二叉树的深度](offer/maxDepth.py))
-- [剑指 Offer 55 - II. 平衡二叉树](offer/isBalanced.py)     
+- [剑指 Offer 55 - II. 平衡二叉树](offer/isBalanced.py)
+- [剑指 Offer 58 - I. 翻转单词顺序](string/reverseWords.py)
+- [剑指 Offer 58 - II. 左旋转字符串](offer/reverseLeftWords.py)
+- [剑指 Offer 59 - I. 滑动窗口的最大值](offer/maxSlidingWindow.py)
+- [剑指 Offer 59 - II. 队列的最大值](offer/MaxQueue.py)
+- [剑指 Offer 60. n个骰子的点数](offer/dicesProbability.py)
 - [剑指 Offer 61. 扑克牌中的顺子](offer/isStraight.py)
 - [剑指 Offer 62. 圆圈中最后剩下的数字](offer/lastRemaining.py)  
 - [剑指 Offer 63. 股票的最大利润](offer/maxProfit.py)  
@@ -95,5 +101,7 @@
 ————————————————
 
 原文链接：https://blog.csdn.net/sufu1065/article/details/88051083
+
+https://blog.csdn.net/thinkwon/category_9731418.html
 
 > VSCODE的GIT命令不好使，直接git push origin master:master

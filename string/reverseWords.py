@@ -15,8 +15,7 @@ class Solution:
     # 内存消耗： 15 MB , 在所有 Python3 提交中击败了 74% 的用户
     """
     def reverseWords(self, s: str) -> str:
-        if s == "":
-            return  ""
+        if not s: return s
         list_s = s.split(" ")
         isFirst = True
         out = ""
