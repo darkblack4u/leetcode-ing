@@ -1,4 +1,8 @@
 {
     "python.pythonPath": "/root/miniconda3/bin/python",
-    "python.formatting.provider": "black"
+    "python.formatting.provider": "black",
+    "java.project.sourcePaths": [
+        "javaTest/javaCode/src-bak",
+        "javaTest/src"
+    ]
 }
