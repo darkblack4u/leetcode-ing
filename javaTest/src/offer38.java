@@ -26,7 +26,7 @@ public class offer38 {
     }
 
     /**
-     * 回溯
+     * 回溯，另外注意通过HashSet去重
      * 
      * @param ret
      * @param s
@@ -38,12 +38,15 @@ public class offer38 {
             ret.add(sb.toString());
             return;
         }
+        HashSet<String> count = new HashSet<>();
         for (int i = 0; i < s.length(); i++) {
-            if (list[i]) {
+            String aString = s.substring(i, i + 1);
+            if (list[i] || count.contains(aString)) {
                 continue;
             }
+            count.add(aString);
             list[i] = true;
-            sb.append(s.substring(i, i + 1));
+            sb.append(aString);
             backTrace(ret, s, sb, list);
             sb.delete(sb.length() - 1, sb.length());
             list[i] = false;
