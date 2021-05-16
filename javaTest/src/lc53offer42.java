@@ -1,9 +1,11 @@
 import java.util.Scanner;
 
-public class offer42 {
+public class lc53offer42 {
     /**
      * 剑指 Offer 42. 连续子数组的最大和
      * https://leetcode-cn.com/problems/lian-xu-zi-shu-zu-de-zui-da-he-lcof/
+     * 
+     * 53. 最大子序和 https://leetcode-cn.com/problems/maximum-subarray/
      * 
      * @param strings
      */
