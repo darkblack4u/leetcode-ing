@@ -2,25 +2,8 @@ import java.util.Random;
 import java.util.*;
 
 public class lc382 {
-    public class ListNode {
-        int val;
-        ListNode next;
-
-        ListNode() {
-        }
-
-        ListNode(int val) {
-            this.val = val;
-        }
-
-        ListNode(int val, ListNode next) {
-            this.val = val;
-            this.next = next;
-        }
-    }
-
     public static void main(String[] strings) {
-        Scanner in = new Scanner(System.in);
+        Scanner sc = new Scanner(System.in);
         Random random = new Random();
         int i = 0;
         while (i < 100) {
@@ -30,6 +13,7 @@ public class lc382 {
                 System.out.println(i + "->" + r);
             }
         }
+        sc.close();
     }
 
     // public Solution(ListNode head) {

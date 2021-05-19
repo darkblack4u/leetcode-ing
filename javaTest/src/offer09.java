@@ -1,4 +1,3 @@
-import java.util.LinkedList;
 import java.util.Stack;
 
 public class offer09 {
@@ -15,7 +14,7 @@ public class offer09 {
     Stack<Integer> in = null;
     Stack<Integer> out = null;
 
-    public CQueue() {
+    public offer09() {
         this.in = new Stack<Integer>();
         this.out = new Stack<Integer>();
     }
