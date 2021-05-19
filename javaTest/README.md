@@ -1,3 +1,5 @@
+> # 作为CV党，也要动手之后再CV
+
 ## Getting Started
 
 Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
@@ -12,3 +14,4 @@ The workspace contains two folders by default, where:
 ## Dependency Management
 
 The `JAVA DEPENDENCIES` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-pack/blob/master/release-notes/v0.9.0.md#work-with-jar-files-directly).
+
