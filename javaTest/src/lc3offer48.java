@@ -1,11 +1,18 @@
 import java.util.*;
 
-public class lc3 {
+public class lc3offer48 {
+    public static void main(String[] strings) {
+        Scanner sc = new Scanner(System.in);
+        String s = sc.nextLine();
+        System.out.println(lengthOfLongestSubstring(s));
+        sc.close();
+    }
+
     /**
      * 3. 无重复字符的最长子串
      * https://leetcode-cn.com/problems/longest-substring-without-repeating-characters/
      */
-    public int lengthOfLongestSubstring(String s) {
+    public static int lengthOfLongestSubstring(String s) {
         int positon = 0;
         int maxlength = 0;
         HashMap<String, Integer> hm = new HashMap<String, Integer>();
