@@ -1,7 +1,8 @@
-public class offer52 {
+public class offer52nc66 {
     /**
      * 剑指 Offer 52. 两个链表的第一个公共节点
      * https://leetcode-cn.com/problems/liang-ge-lian-biao-de-di-yi-ge-gong-gong-jie-dian-lcof/
+     * https://www.nowcoder.com/practice/6ab1d9a29e88450685099d45c9e31e46
      * 
      * @param strings
      */
