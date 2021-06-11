@@ -1,5 +1,3 @@
-import java.util.Arrays;
-
 public class lc169offer39nc73 {
     /**
      * 数组中出现次数超过一半的数字

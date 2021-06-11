@@ -1,5 +1,3 @@
-import java.util.function.DoubleToIntFunction;
-
 public class lc50offer16 {
     /**
      * 剑指 Offer 16. 数值的整数次方
