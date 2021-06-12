@@ -4,6 +4,10 @@ public class lc525 {
     /**
      * 525. 连续数组 https://leetcode-cn.com/problems/contiguous-array/ 前缀和 + 哈希表
      * 
+     * 给定一个二进制数组 nums , 找到含有相同数量的 0 和 1 的最长连续子数组，并返回该子数组的长度。
+     * 
+     * 
+     * 
      * @param nums
      * @return
      */

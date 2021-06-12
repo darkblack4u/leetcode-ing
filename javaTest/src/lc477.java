@@ -14,6 +14,10 @@ public class lc477 {
     }
 
     /**
+     * 477. 汉明距离总和
+     * 
+     * https://leetcode-cn.com/problems/total-hamming-distance/
+     * 
      * 逐位统计 在计算汉明距离时，我们考虑的是同一比特位上的值是否不同，而不同比特位之间是互不影响的。 对于数组 \textit{nums}nums
      * 中的某个元素 \textit{val}val，若其二进制的第 ii 位为 11，我们只需统计 \textit{nums}nums 中有多少元素的第 ii
      * 位为 00，即计算出了 \textit{val}val 与其他元素在第 ii 位上的汉明距离之和。 具体地，若长度为 nn 的数组

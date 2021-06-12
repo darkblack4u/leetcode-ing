@@ -4,6 +4,10 @@ public class lc295offer41 {
     Queue<Integer> A, B;
 
     /** initialize your data structure here. */
+    /**
+     * 剑指 Offer 41. 数据流中的中位数
+     * https://leetcode-cn.com/problems/shu-ju-liu-zhong-de-zhong-wei-shu-lcof/
+     */
     public lc295offer41() {
         A = new PriorityQueue<>();
         B = new PriorityQueue<>((x, y) -> (y - x));

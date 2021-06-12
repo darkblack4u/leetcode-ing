@@ -1,4 +1,14 @@
 public class lc1744 {
+
+    /**
+     * 1744. 你能在你最喜欢的那天吃到你最喜欢的糖果吗？
+     * 
+     * https://leetcode-cn.com/problems/can-you-eat-your-favorite-candy-on-your-favorite-day/
+     * 
+     * @param candiesCount
+     * @param queries
+     * @return
+     */
     public boolean[] canEat(int[] candiesCount, int[][] queries) {
         int n = candiesCount.length;
 
