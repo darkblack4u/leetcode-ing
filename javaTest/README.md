@@ -21,7 +21,7 @@ The `JAVA DEPENDENCIES` view allows you to manage your dependencies. More detail
 
 ### 1. 动态规划
 
-[<font color=#0099ff size=2>1035. 不相交的线</font>](src/lc1035.java)/
+[<span style="color:#00FF7F;">1035. 不相交的线</span>](src/lc1035.java)/
 [<font color=#FF4500 size=2>1049. 最后一块石头的重量 II</font>](src/lc1049.java)/
 [<font color=#00FF7F size=2>1738. 找出第 K 大的异或坐标值</font>](src/lc1738.java)/
 [<font color=#0099ff size=2>279. 完全平方数</font>](src/lc279.java)/
