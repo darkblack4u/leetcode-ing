@@ -90,6 +90,7 @@ The `JAVA DEPENDENCIES` view allows you to manage your dependencies. More detail
 
 [<span style="color:#0099ff;">4. 寻找两个正序数组的中位数</span>](src/lc4.java)/
 [<span style="color:#0099ff;">148. 排序链表</span>](src/lc148.java)/
+[<span style="color:#0099ff;">278. 第一个错误的版本</span>](src/lc278.java)/
 [<span style="color:#FF4500;">剑指 Offer 11. 旋转数组的最小数字</span>](src/lc154offer11.java)/
 
 ### 8. 字符串
