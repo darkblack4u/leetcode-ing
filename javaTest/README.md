@@ -78,10 +78,10 @@ The `JAVA DEPENDENCIES` view allows you to manage your dependencies. More detail
 
 ### 6. 双指针
 
-[<span style="color:#0099ff;">3. 无重复字符的最长子串</span>](src/lc3offer48.java)/
-[<span style="color:#0099ff;">42. 接雨水</span>](src/lc42.java)/
-[<span style="color:#0099ff;">234. 回文链表</span>](src/lc234nc96.java)/
-[<span style="color:#0099ff;">剑指 Offer 22. 链表中倒数第k个节点</span>](src/offer22.java)/
+[<span style="color:#FF4500;">3. 无重复字符的最长子串</span>](src/lc3offer48.java)/
+[<span style="color:#FF4500;">42. 接雨水</span>](src/lc42.java)/
+[<span style="color:#FF4500;">234. 回文链表</span>](src/lc234nc96.java)/
+[<span style="color:#FF4500;">剑指 Offer 22. 链表中倒数第k个节点</span>](src/offer22.java)/
 [<span style="color:#0099ff;">剑指 Offer 25. 合并两个排序的链表</span>](src/lc21offer25.java)/
 [<span style="color:#0099ff;">剑指 Offer 29. 顺时针打印矩阵</span>](src/lc54offer29.java)/
 [<span style="color:#0099ff;">剑指 Offer 52. 两个链表的第一个公共节点</span>](src/offer52nc66.java)/
@@ -90,62 +90,61 @@ The `JAVA DEPENDENCIES` view allows you to manage your dependencies. More detail
 
 [<span style="color:#0099ff;">4. 寻找两个正序数组的中位数</span>](src/lc4.java)/
 [<span style="color:#0099ff;">148. 排序链表</span>](src/lc148.java)/
-[<span style="color:#0099ff;">剑指 Offer 11. 旋转数组的最小数字</span>](src/lc154offer11.java)/
+[<span style="color:#FF4500;">剑指 Offer 11. 旋转数组的最小数字</span>](src/lc154offer11.java)/
 
 ### 8. 字符串
 
 [<span style="color:#0099ff;">5. 最长回文子串</span>](src/lc5.java)/
 [<span style="color:#0099ff;">7. 整数反转</span>](src/lc7.java)/
 [<span style="color:#0099ff;">9. 回文数</span>](src/lc9.java)/
-[<span style="color:#0099ff;">12. 整数转罗马数字</span>](src/lc12.java)/
-[<span style="color:#0099ff;">13. 罗马数字转整数</span>](src/lc13.java)/
+[<span style="color:#FF4500;">12. 整数转罗马数字</span>](src/lc12.java)/
+[<span style="color:#FF4500;">13. 罗马数字转整数</span>](src/lc13.java)/
 [<span style="color:#0099ff;">14. 最长公共前缀</span>](src/lc14nc55.java)/
 [<span style="color:#0099ff;">剑指 Offer 05. 替换空格</span>](src/offer05.java)/
-[<span style="color:#0099ff;">剑指 Offer 20. 表示数值的字符串</span>](src/offer20.java)/
-
+[<span style="color:#FF4500;">剑指 Offer 20. 表示数值的字符串</span>](src/offer20.java)/
 
 ### 9. 数组
 
-[<span style="color:#0099ff;">1051. 高度检查器</span>](src/lc1051.java)/
+[<span style="color:#0099ff;">剑指 Offer 03. 数组中重复的数字</span>](src/offer03.java)/
+[<span style="color:#0099ff;">剑指 Offer 04. 二维数组中的查找</span>](src/lc240offer04.java)/
+[<span style="color:#0099ff;">剑指 Offer 11. 旋转数组的最小数字</span>](src/lc154offer11.java)/
+[<span style="color:#0099ff;">剑指 Offer 29. 顺时针打印矩阵</span>](src/lc54offer29.java)/
+[<span style="color:#0099ff;">剑指 Offer 39. 数组中出现次数超过一半的数字</span>](src/lc169offer39nc73.java)/
+[<span style="color:#0099ff;">剑指 Offer 54. 螺旋矩阵</span>](src/offer54.java)/
+[<span style="color:#0099ff;">剑指 Offer 56 - II. 数组中数字出现的次数 II</span>](src/offer56B.java)
 [<span style="color:#0099ff;">剑指 Offer 63. 股票的最大利润</span>](src/lc121offer63.java)/
+[<span style="color:#0099ff;">42. 接雨水</span>](src/lc42.java)/
+[<span style="color:#0099ff;">88. 合并两个有序数组</span>](src/lc88nc22.java)/
 [<span style="color:#0099ff;">136. 只出现一次的数字</span>](src/lc136.java)/
 [<span style="color:#0099ff;">260. 只出现一次的数字 III</span>](src/lc260nc75.java)/
-[<span style="color:#0099ff;">剑指 Offer 11. 旋转数组的最小数字</span>](src/lc154offer11.java)/
-[<span style="color:#0099ff;">剑指 Offer 39. 数组中出现次数超过一半的数字</span>](src/lc169offer39nc73.java)/
-[<span style="color:#0099ff;">**1707. 与数组中元素的最大异或值**</span>](src/lc1707.java)/
+[<span style="color:#0099ff;">279. 完全平方数</span>](src/lc279.java)/
+[<span style="color:#0099ff;">1051. 高度检查器</span>](src/lc1051.java)/
+[<span style="color:#0099ff;">1707. 与数组中元素的最大异或值</span>](src/lc1707.java)/
 [<span style="color:#0099ff;">1738. 找出第 K 大的异或坐标值</span>](src/lc1738.java)/
 [<span style="color:#0099ff;">1744. 你能在你最喜欢的那天吃到你最喜欢的糖果吗？</span>](src/lc1744.java)/
-[<span style="color:#0099ff;">剑指 Offer 04. 二维数组中的查找</span>](src/lc240offer04.java)/
-[<span style="color:#0099ff;">279. 完全平方数</span>](src/lc279.java)/
-[<span style="color:#0099ff;">42. 接雨水</span>](src/lc42.java)/
-[<span style="color:#0099ff;">剑指 Offer 29. 顺时针打印矩阵</span>](src/lc54offer29.java)/
-[<span style="color:#0099ff;">88. 合并两个有序数组</span>](src/lc88nc22.java)/
-[<span style="color:#0099ff;">剑指 Offer 03. 数组中重复的数字</span>](src/offer03.java)/
-[<span style="color:#0099ff;">螺旋矩阵</span>](src/offer54.java)/
-[<span style="color:#0099ff;">剑指 Offer 56 - II. 数组中数字出现的次数 II</span>](src/offer56B.java)
 
 
 ### 10. 回溯
 
+[<span style="color:#0099ff;">剑指 Offer 12. 矩阵中的路径</span>](src/lc79offer12.java)/
 [<span style="color:#0099ff;">剑指 Offer 34. 二叉树中和为某一值的路径</span>](src/lc113offer34.java)/
+[<span style="color:#0099ff;">剑指 Offer 38. 字符串的排列</span>](src/offer38.java)/
 [<span style="color:#0099ff;">剑指 Offer 46. 把数字翻译成字符串</span>](src/offer46.java)/
 [<span style="color:#0099ff;">51. N 皇后</span>](src/lc51.java)/
-[<span style="color:#0099ff;">剑指 Offer 12. 矩阵中的路径</span>](src/lc79offer12.java)/
-[<span style="color:#0099ff;">剑指 Offer 38. 字符串的排列</span>](src/offer38.java)/
 
 ### 11. 其他
 
+[<span style="color:#0099ff;">剑指 Offer 09. 用两个栈实现队列</span>](src/offer09.java)/
+[<span style="color:#0099ff;">剑指 Offer 16. 数值的整数次方</span>](src/lc50offer16.java)/
 [<span style="color:#0099ff;">剑指 Offer 30. 包含min函数的栈</span>](src/lc155offer30.java)/
+[<span style="color:#0099ff;">剑指 Offer 31. 栈的压入、弹出序列</span>](src/lc946offer31.java)/
+[<span style="color:#0099ff;">剑指 Offer 40. 最小的k个数</span>](src/offer40.java)/
 [<span style="color:#0099ff;">剑指 Offer 41. 数据流中的中位数</span>](src/lc295offer41.java)/
-[<span style="color:#0099ff;">342. 4的幂</span>](src/lc342.java)/
 [<span style="color:#0099ff;">剑指 Offer 44. 数字序列中某一位的数字</span>](src/lc400offer44.java)/
+[<span style="color:#0099ff;">342. 4的幂</span>](src/lc342.java)/
 [<span style="color:#0099ff;">461. 汉明距离</span>](src/lc461.java)/
 [<span style="color:#0099ff;">477. 汉明距离总和</span>](src/lc477.java)/
-[<span style="color:#0099ff;">剑指 Offer 16. 数值的整数次方</span>](src/lc50offer16.java)/
 [<span style="color:#0099ff;">692. 前K个高频单词</span>](src/lc692.java)/
-[<span style="color:#0099ff;">剑指 Offer 31. 栈的压入、弹出序列</span>](src/lc946offer31.java)/
-[<span style="color:#0099ff;">剑指 Offer 09. 用两个栈实现队列</span>](src/offer09.java)/
-[<span style="color:#0099ff;">剑指 Offer 40. 最小的k个数</span>](src/offer40.java)/
 
 ### 12. 数据结构
 
