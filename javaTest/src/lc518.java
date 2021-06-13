@@ -12,6 +12,7 @@ public class lc518 {
     public int change(int amount, int[] coins) {
         int[] dp = new int[amount + 1];
         dp[0] = 1;
+        /* 先使用coin循环，可避免重复记录 */
         for (int coin : coins) {
             for (int i = coin; i <= amount; i++) {
                 dp[i] += dp[i - coin];
