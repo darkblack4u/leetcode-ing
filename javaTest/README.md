@@ -103,7 +103,7 @@ The `JAVA DEPENDENCIES` view allows you to manage your dependencies. More detail
 [<span style="color:#0099ff;">14. 最长公共前缀</span>](src/lc14nc55.java)/
 [<span style="color:#0099ff;">剑指 Offer 05. 替换空格</span>](src/offer05.java)/
 [<span style="color:#FF4500;">剑指 Offer 20. 表示数值的字符串</span>](src/offer20.java)/
-[<span style="color:#FF4500;">剑指 Offer 50. 第一个只出现一次的字符</span>](src/offer50.java)/
+[<span style="color:#FF4500;">剑指 Offer 50. 第一个只出现一次的字符(LinkedHashMap)</span>](src/offer50.java)/
 
 ### 9. 数组
 
