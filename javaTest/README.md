@@ -91,6 +91,7 @@ The `JAVA DEPENDENCIES` view allows you to manage your dependencies. More detail
 [<span style="color:#0099ff;">4. 寻找两个正序数组的中位数</span>](src/lc4.java)/
 [<span style="color:#0099ff;">148. 排序链表</span>](src/lc148.java)/
 [<span style="color:#0099ff;">278. 第一个错误的版本</span>](src/lc278.java)/
+[<span style="color:#0099ff;">852. 山脉数组的峰顶索引</span>](src/lc852.java)/
 [<span style="color:#FF4500;">剑指 Offer 11. 旋转数组的最小数字</span>](src/lc154offer11.java)/
 
 ### 8. 字符串
@@ -120,6 +121,7 @@ The `JAVA DEPENDENCIES` view allows you to manage your dependencies. More detail
 [<span style="color:#0099ff;">136. 只出现一次的数字</span>](src/lc136.java)/
 [<span style="color:#0099ff;">260. 只出现一次的数字 III</span>](src/lc260nc75.java)/
 [<span style="color:#0099ff;">279. 完全平方数</span>](src/lc279.java)/
+[<span style="color:#0099ff;">852. 山脉数组的峰顶索引</span>](src/lc852.java)/
 [<span style="color:#0099ff;">1051. 高度检查器</span>](src/lc1051.java)/
 [<span style="color:#0099ff;">1707. 与数组中元素的最大异或值</span>](src/lc1707.java)/
 [<span style="color:#0099ff;">1738. 找出第 K 大的异或坐标值</span>](src/lc1738.java)/
