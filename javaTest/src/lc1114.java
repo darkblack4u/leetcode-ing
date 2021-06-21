@@ -1,4 +1,3 @@
-import java.util.*;
 import java.util.concurrent.atomic.AtomicInteger;
 
 public class lc1114 {
@@ -45,8 +44,8 @@ public class lc1114 {
     public void third(Runnable printThird) throws InterruptedException {
         while (secondJobDone.get() != 1) {
             // waiting for the second job to be done.
-          }
+        }
         // printThird.run() outputs "third". Do not change or remove this line.
         printThird.run();
     }
-}}
+}

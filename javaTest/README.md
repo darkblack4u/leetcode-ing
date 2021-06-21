@@ -15,23 +15,19 @@ The workspace contains two folders by default, where:
 
 The `JAVA DEPENDENCIES` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-pack/blob/master/release-notes/v0.9.0.md#work-with-jar-files-directly).
 
-## Problemset Navigation
-
-<span style="color:#0099ff;">普通</span>/
-<span style="color:#FF4500;">需回顾</span>/
-<span style="color:#00FF7F;">骚操作</span>
+## Problemset Navigation 一刷
 
 ### 1. 动态规划
 
-[<span style="color:#FF4500;">72. 编辑距离</span>](src/lc72.java)/
-[<span style="color:#FF4500;">79. 完全平方数</span>](src/lc279.java)/
+[<span style="color:#0099ff;">72. 编辑距离</span>](src/lc72.java)/
+[<span style="color:#0099ff;">79. 完全平方数</span>](src/lc279.java)/
 [<span style="color:#0099ff;">322. 零钱兑换</span>](src/lc322.java)/
-[<span style="color:#FF4500;">474. 一和零</span>](src/lc474.java)/
-[<span style="color:#FF4500;">518. 零钱兑换 II</span>](src/lc518.java)/
-[<span style="color:#FF4500;">664. 奇怪的打印机</span>](src/lc664.java)/
-[<span style="color:#FF4500;">1049. 最后一块石头的重量 II</span>](src/lc1049.java)/
-[<span style="color:#FF4500;">1738. 找出第 K 大的异或坐标值</span>](src/lc1738.java)/
-[<span style="color:#00FF7F;">1035. 不相交的线</span>](src/lc1035.java)/
+[<span style="color:#0099ff;">474. 一和零</span>](src/lc474.java)/
+[<span style="color:#0099ff;">518. 零钱兑换 II</span>](src/lc518.java)/
+[<span style="color:#0099ff;">664. 奇怪的打印机</span>](src/lc664.java)/
+[<span style="color:#0099ff;">1049. 最后一块石头的重量 II</span>](src/lc1049.java)/
+[<span style="color:#0099ff;">1738. 找出第 K 大的异或坐标值</span>](src/lc1738.java)/
+[<span style="color:#0099ff;">1035. 不相交的线</span>](src/lc1035.java)/
 [<span style="color:#0099ff;">剑指 Offer 10- I. 斐波那契数列</span>](src/offer10A.java)/
 [<span style="color:#0099ff;">剑指 Offer 10- II. 青蛙跳台阶问题</span>](src/lc70offer10B.java)/
 [<span style="color:#0099ff;">剑指 Offer 42. 连续子数组的最大和</span>](src/lc53offer42.java)/
@@ -66,24 +62,24 @@ The `JAVA DEPENDENCIES` view allows you to manage your dependencies. More detail
 ### 5. 链表
 
 [<span style="color:#0099ff;">2. 两数相加</span>](src/lc2.java)/
-[<span style="color:#FF4500;">25. K 个一组翻转链表</span>](src/lc25.java)/
-[<span style="color:#FF4500;">148. 排序链表</span>](src/lc148.java)/
+[<span style="color:#0099ff;">25. K 个一组翻转链表</span>](src/lc25.java)/
+[<span style="color:#0099ff;">148. 排序链表</span>](src/lc148.java)/
 [<span style="color:#0099ff;">203. 移除链表元素</span>](src/lc203.java)/
-[<span style="color:#FF4500;">234. 回文链表</span>](src/lc234nc96.java)/
+[<span style="color:#0099ff;">234. 回文链表</span>](src/lc234nc96.java)/
 [<span style="color:#0099ff;">剑指 Offer 06. 从尾到头打印链表</span>](src/offer06.java)/
 [<span style="color:#0099ff;">剑指 Offer 22. 链表中倒数第k个节点</span>](src/offer22.java)/
 [<span style="color:#0099ff;">剑指 Offer 24. 反转链表</span>](src/offer24.java)/
 [<span style="color:#0099ff;">剑指 Offer 25. 合并两个排序的链表</span>](src/lc21offer25.java)/
-[<span style="color:#FF4500;">剑指 Offer 35. 复杂链表的复制</span>](src/lc138offer35.java)/
-[<span style="color:#FF4500;">剑指 Offer 52. 两个链表的第一个公共节点</span>](src/offer52nc66.java)/
+[<span style="color:#0099ff;">剑指 Offer 35. 复杂链表的复制</span>](src/lc138offer35.java)/
+[<span style="color:#0099ff;">剑指 Offer 52. 两个链表的第一个公共节点</span>](src/offer52nc66.java)/
 
 
 ### 6. 双指针
 
-[<span style="color:#FF4500;">3. 无重复字符的最长子串</span>](src/lc3offer48.java)/
-[<span style="color:#FF4500;">42. 接雨水</span>](src/lc42.java)/
-[<span style="color:#FF4500;">234. 回文链表</span>](src/lc234nc96.java)/
-[<span style="color:#FF4500;">剑指 Offer 22. 链表中倒数第k个节点</span>](src/offer22.java)/
+[<span style="color:#0099ff;">3. 无重复字符的最长子串</span>](src/lc3offer48.java)/
+[<span style="color:#0099ff;">42. 接雨水</span>](src/lc42.java)/
+[<span style="color:#0099ff;">234. 回文链表</span>](src/lc234nc96.java)/
+[<span style="color:#0099ff;">剑指 Offer 22. 链表中倒数第k个节点</span>](src/offer22.java)/
 [<span style="color:#0099ff;">剑指 Offer 25. 合并两个排序的链表</span>](src/lc21offer25.java)/
 [<span style="color:#0099ff;">剑指 Offer 29. 顺时针打印矩阵</span>](src/lc54offer29.java)/
 [<span style="color:#0099ff;">剑指 Offer 52. 两个链表的第一个公共节点</span>](src/offer52nc66.java)/
@@ -94,21 +90,21 @@ The `JAVA DEPENDENCIES` view allows you to manage your dependencies. More detail
 [<span style="color:#0099ff;">148. 排序链表</span>](src/lc148.java)/
 [<span style="color:#0099ff;">278. 第一个错误的版本</span>](src/lc278.java)/
 [<span style="color:#0099ff;">852. 山脉数组的峰顶索引</span>](src/lc852.java)/
-[<span style="color:#FF4500;">剑指 Offer 11. 旋转数组的最小数字</span>](src/lc154offer11.java)/
+[<span style="color:#0099ff;">剑指 Offer 11. 旋转数组的最小数字</span>](src/lc154offer11.java)/
 
 ### 8. 字符串
 
 [<span style="color:#0099ff;">5. 最长回文子串</span>](src/lc5.java)/
 [<span style="color:#0099ff;">7. 整数反转</span>](src/lc7.java)/
 [<span style="color:#0099ff;">9. 回文数</span>](src/lc9.java)/
-[<span style="color:#FF4500;">12. 整数转罗马数字</span>](src/lc12.java)/
-[<span style="color:#FF4500;">13. 罗马数字转整数</span>](src/lc13.java)/
+[<span style="color:#0099ff;">12. 整数转罗马数字</span>](src/lc12.java)/
+[<span style="color:#0099ff;">13. 罗马数字转整数</span>](src/lc13.java)/
 [<span style="color:#0099ff;">14. 最长公共前缀</span>](src/lc14nc55.java)/
-[<span style="color:#FF4500;">72. 编辑距离</span>](src/lc72.java)/
-[<span style="color:#FF4500;">131. 分割回文串</span>](src/lc131.java)/
+[<span style="color:#0099ff;">72. 编辑距离</span>](src/lc72.java)/
+[<span style="color:#0099ff;">131. 分割回文串</span>](src/lc131.java)/
 [<span style="color:#0099ff;">剑指 Offer 05. 替换空格</span>](src/offer05.java)/
-[<span style="color:#FF4500;">剑指 Offer 20. 表示数值的字符串</span>](src/offer20.java)/
-[<span style="color:#FF4500;">剑指 Offer 50. 第一个只出现一次的字符(LinkedHashMap)</span>](src/offer50.java)/
+[<span style="color:#0099ff;">剑指 Offer 20. 表示数值的字符串</span>](src/offer20.java)/
+[<span style="color:#0099ff;">剑指 Offer 50. 第一个只出现一次的字符(LinkedHashMap)</span>](src/offer50.java)/
 
 ### 9. 数组
 
@@ -128,6 +124,7 @@ The `JAVA DEPENDENCIES` view allows you to manage your dependencies. More detail
 [<span style="color:#0099ff;">200. 岛屿数量</span>](src/lc200.java)/
 [<span style="color:#0099ff;">260. 只出现一次的数字 III</span>](src/lc260nc75.java)/
 [<span style="color:#0099ff;">279. 完全平方数</span>](src/lc279.java)/
+[<span style="color:#0099ff;">739. 每日温度</span>](src/lc739.java)/
 [<span style="color:#0099ff;">781. 森林中的兔子</span>](src/lc781.java)/
 [<span style="color:#0099ff;">852. 山脉数组的峰顶索引</span>](src/lc852.java)/
 [<span style="color:#0099ff;">1051. 高度检查器</span>](src/lc1051.java)/
@@ -143,7 +140,7 @@ The `JAVA DEPENDENCIES` view allows you to manage your dependencies. More detail
 [<span style="color:#0099ff;">剑指 Offer 38. 字符串的排列</span>](src/offer38.java)/
 [<span style="color:#0099ff;">剑指 Offer 46. 把数字翻译成字符串</span>](src/offer46.java)/
 [<span style="color:#0099ff;">51. N 皇后</span>](src/lc51.java)/
-[<span style="color:#FF4500;">131. 分割回文串</span>](src/lc131.java)/
+[<span style="color:#0099ff;">131. 分割回文串</span>](src/lc131.java)/
 
 ### 11. 其他
 
@@ -159,7 +156,7 @@ The `JAVA DEPENDENCIES` view allows you to manage your dependencies. More detail
 [<span style="color:#0099ff;">461. 汉明距离</span>](src/lc461.java)/
 [<span style="color:#0099ff;">477. 汉明距离总和</span>](src/lc477.java)/
 [<span style="color:#0099ff;">692. 前K个高频单词</span>](src/lc692.java)/
-[<span style="color:#FF4500;">1114. 按序打印(多线程)</span>](src/lc1114.java)/
+[<span style="color:#0099ff;">1114. 按序打印(多线程)</span>](src/lc1114.java)/
 
 ### 12. 数据结构
 
@@ -167,3 +164,8 @@ The `JAVA DEPENDENCIES` view allows you to manage your dependencies. More detail
 [<span style="color:#0099ff;">Node</span>](src/Node.java)/
 [<span style="color:#0099ff;">TreeNode</span>](src/TreeNode.java)/
 [<span style="color:#0099ff;">Trie</span>](src/Trie.java)/
+
+
+<span style="color:#0099ff;">一刷</span>/
+<span style="color:#FF4500;">二刷</span>/
+<span style="color:#00FF7F;">三刷</span>
