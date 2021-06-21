@@ -23,6 +23,7 @@ The `JAVA DEPENDENCIES` view allows you to manage your dependencies. More detail
 
 ### 1. 动态规划
 
+[<span style="color:#FF4500;">72. 编辑距离</span>](src/lc72.java)/
 [<span style="color:#FF4500;">79. 完全平方数</span>](src/lc279.java)/
 [<span style="color:#0099ff;">322. 零钱兑换</span>](src/lc322.java)/
 [<span style="color:#FF4500;">474. 一和零</span>](src/lc474.java)/
@@ -59,6 +60,7 @@ The `JAVA DEPENDENCIES` view allows you to manage your dependencies. More detail
 [<span style="color:#0099ff;">1. 两数之和</span>](src/lc1.java)/
 [<span style="color:#0099ff;">523. 连续的子数组和</span>](src/lc523.java)/
 [<span style="color:#0099ff;">525. 连续数组</span>](src/lc525.java)/
+[<span style="color:#0099ff;">781. 森林中的兔子</span>](src/lc781.java)/
 [<span style="color:#0099ff;">剑指 Offer 20. 表示数值的字符串</span>](src/offer20.java)/
 
 ### 5. 链表
@@ -102,6 +104,8 @@ The `JAVA DEPENDENCIES` view allows you to manage your dependencies. More detail
 [<span style="color:#FF4500;">12. 整数转罗马数字</span>](src/lc12.java)/
 [<span style="color:#FF4500;">13. 罗马数字转整数</span>](src/lc13.java)/
 [<span style="color:#0099ff;">14. 最长公共前缀</span>](src/lc14nc55.java)/
+[<span style="color:#FF4500;">72. 编辑距离</span>](src/lc72.java)/
+[<span style="color:#FF4500;">131. 分割回文串</span>](src/lc131.java)/
 [<span style="color:#0099ff;">剑指 Offer 05. 替换空格</span>](src/offer05.java)/
 [<span style="color:#FF4500;">剑指 Offer 20. 表示数值的字符串</span>](src/offer20.java)/
 [<span style="color:#FF4500;">剑指 Offer 50. 第一个只出现一次的字符(LinkedHashMap)</span>](src/offer50.java)/
@@ -113,14 +117,18 @@ The `JAVA DEPENDENCIES` view allows you to manage your dependencies. More detail
 [<span style="color:#0099ff;">剑指 Offer 11. 旋转数组的最小数字</span>](src/lc154offer11.java)/
 [<span style="color:#0099ff;">剑指 Offer 29. 顺时针打印矩阵</span>](src/lc54offer29.java)/
 [<span style="color:#0099ff;">剑指 Offer 39. 数组中出现次数超过一半的数字</span>](src/lc169offer39nc73.java)/
+[<span style="color:#0099ff;">剑指 Offer 51. 数组中的逆序对</span>](src/offer51.java)/
 [<span style="color:#0099ff;">剑指 Offer 54. 螺旋矩阵</span>](src/offer54.java)/
 [<span style="color:#0099ff;">剑指 Offer 56 - II. 数组中数字出现的次数 II</span>](src/offer56B.java)
 [<span style="color:#0099ff;">剑指 Offer 63. 股票的最大利润</span>](src/lc121offer63.java)/
 [<span style="color:#0099ff;">42. 接雨水</span>](src/lc42.java)/
 [<span style="color:#0099ff;">88. 合并两个有序数组</span>](src/lc88nc22.java)/
 [<span style="color:#0099ff;">136. 只出现一次的数字</span>](src/lc136.java)/
+[<span style="color:#0099ff;">179. 最大数</span>](src/lc179.java)/
+[<span style="color:#0099ff;">200. 岛屿数量</span>](src/lc200.java)/
 [<span style="color:#0099ff;">260. 只出现一次的数字 III</span>](src/lc260nc75.java)/
 [<span style="color:#0099ff;">279. 完全平方数</span>](src/lc279.java)/
+[<span style="color:#0099ff;">781. 森林中的兔子</span>](src/lc781.java)/
 [<span style="color:#0099ff;">852. 山脉数组的峰顶索引</span>](src/lc852.java)/
 [<span style="color:#0099ff;">1051. 高度检查器</span>](src/lc1051.java)/
 [<span style="color:#0099ff;">1707. 与数组中元素的最大异或值</span>](src/lc1707.java)/
@@ -135,6 +143,7 @@ The `JAVA DEPENDENCIES` view allows you to manage your dependencies. More detail
 [<span style="color:#0099ff;">剑指 Offer 38. 字符串的排列</span>](src/offer38.java)/
 [<span style="color:#0099ff;">剑指 Offer 46. 把数字翻译成字符串</span>](src/offer46.java)/
 [<span style="color:#0099ff;">51. N 皇后</span>](src/lc51.java)/
+[<span style="color:#FF4500;">131. 分割回文串</span>](src/lc131.java)/
 
 ### 11. 其他
 
@@ -146,9 +155,11 @@ The `JAVA DEPENDENCIES` view allows you to manage your dependencies. More detail
 [<span style="color:#0099ff;">剑指 Offer 41. 数据流中的中位数</span>](src/lc295offer41.java)/
 [<span style="color:#0099ff;">剑指 Offer 44. 数字序列中某一位的数字</span>](src/lc400offer44.java)/
 [<span style="color:#0099ff;">342. 4的幂</span>](src/lc342.java)/
+[<span style="color:#0099ff;">401. 二进制手表</span>](src/lc401.java)/
 [<span style="color:#0099ff;">461. 汉明距离</span>](src/lc461.java)/
 [<span style="color:#0099ff;">477. 汉明距离总和</span>](src/lc477.java)/
 [<span style="color:#0099ff;">692. 前K个高频单词</span>](src/lc692.java)/
+[<span style="color:#FF4500;">1114. 按序打印(多线程)</span>](src/lc1114.java)/
 
 ### 12. 数据结构
 
