@@ -17,14 +17,16 @@ The `JAVA DEPENDENCIES` view allows you to manage your dependencies. More detail
 
 ## Problemset Navigation 二刷
 
-[<span style="color:#FF4500;">215. 数组中的第K个最大元素</span>](src/lc215.java)/
+- [<span style="color:#FF4500;">[堆排] 215. 数组中的第K个最大元素</span>](src/lc215.java)
+- [<span style="color:#FF4500;">[回溯] 剑指 Offer 38. 字符串的排列</span>](src/offer38.java)
 
 ## Problemset Navigation 一刷
 
 ### 1. 动态规划
 
 [<span style="color:#0099ff;">72. 编辑距离</span>](src/lc72.java)/
-[<span style="color:#0099ff;">79. 完全平方数</span>](src/lc279.java)/
+[<span style="color:#0099ff;">79. 完全平方数</span>](src/lc79.java)/
+[<span style="color:#0099ff;">198. 打家劫舍</span>](src/lc198.java)/
 [<span style="color:#0099ff;">322. 零钱兑换</span>](src/lc322.java)/
 [<span style="color:#0099ff;">474. 一和零</span>](src/lc474.java)/
 [<span style="color:#0099ff;">518. 零钱兑换 II</span>](src/lc518.java)/
@@ -40,6 +42,8 @@ The `JAVA DEPENDENCIES` view allows you to manage your dependencies. More detail
 
 [<span style="color:#0099ff;">剑指 Offer 14- I. 剪绳子</span>](src/lc343offer14A.java)/
 [<span style="color:#0099ff;">剑指 Offer 14- I. 剪绳子</span>](src/lc343offer14B.java)/
+[<span style="color:#0099ff;">45. 跳跃游戏 II</span>](src/lc55.java)/
+[<span style="color:#0099ff;">55. 跳跃游戏</span>](src/lc55.java)/
 
 ### 3. 二叉树
 
