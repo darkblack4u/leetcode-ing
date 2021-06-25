@@ -21,6 +21,7 @@ The `JAVA DEPENDENCIES` view allows you to manage your dependencies. More detail
 - [<span style="color:#FF4500;">[回溯] 剑指 Offer 38. 字符串的排列</span>](src/offer38.java)
 - [<span style="color:#FF4500;">[HASH] 149. 直线上最多的点数</span>](src/lc149.java)
 - [<span style="color:#FF4500;">[排序] 912. 排序数组</span>](src/lc912.java)
+- [<span style="color:#FF4500;">[高级BFS] 752. 打开转盘锁</span>](src/lc752.java)
 
 ## Problemset Navigation 一刷
 
