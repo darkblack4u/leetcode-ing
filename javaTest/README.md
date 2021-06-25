@@ -19,6 +19,8 @@ The `JAVA DEPENDENCIES` view allows you to manage your dependencies. More detail
 
 - [<span style="color:#FF4500;">[堆排] 215. 数组中的第K个最大元素</span>](src/lc215.java)
 - [<span style="color:#FF4500;">[回溯] 剑指 Offer 38. 字符串的排列</span>](src/offer38.java)
+- [<span style="color:#FF4500;">[HASH] 149. 直线上最多的点数</span>](src/lc149.java)
+- [<span style="color:#FF4500;">[排序] 912. 排序数组</span>](src/lc912.java)
 
 ## Problemset Navigation 一刷
 
@@ -63,6 +65,7 @@ The `JAVA DEPENDENCIES` view allows you to manage your dependencies. More detail
 ### 4. Hash
 
 [<span style="color:#0099ff;">1. 两数之和</span>](src/lc1.java)/
+[<span style="color:#0099ff;">149. 直线上最多的点数</span>](src/lc149.java)
 [<span style="color:#0099ff;">523. 连续的子数组和</span>](src/lc523.java)/
 [<span style="color:#0099ff;">525. 连续数组</span>](src/lc525.java)/
 [<span style="color:#0099ff;">781. 森林中的兔子</span>](src/lc781.java)/
