@@ -30,4 +30,4 @@
 
 https://blog.csdn.net/thinkwon/category_9731418.html
 
-> VSCODE的GIT命令不好使，直接git push origin master:master
+> VSCODE的GIT命令不好使，直接git pull --tags origin master/git push origin master:master
