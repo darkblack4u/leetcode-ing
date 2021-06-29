@@ -17,11 +17,13 @@ The `JAVA DEPENDENCIES` view allows you to manage your dependencies. More detail
 
 ## Problemset Navigation 二刷
 
-- [<span style="color:#FF4500;">[堆排] 215. 数组中的第K个最大元素</span>](src/lc215.java)
-- [<span style="color:#FF4500;">[回溯] 剑指 Offer 38. 字符串的排列</span>](src/offer38.java)
-- [<span style="color:#FF4500;">[HASH] 149. 直线上最多的点数</span>](src/lc149.java)
-- [<span style="color:#FF4500;">[排序] 912. 排序数组</span>](src/lc912.java)
-- [<span style="color:#FF4500;">[高级BFS] 752. 打开转盘锁</span>](src/lc752.java)
+|题目|分类|链接|
+|-|-|-|
+|[215. 数组中的第K个最大元素](src/lc215.java)|堆排|[leetcode-cn](https://leetcode-cn.com/problems/kth-largest-element-in-an-array/)|
+|[剑指 Offer 38. 字符串的排列](src/offer38.java)|回溯|[leetcode-cn](https://leetcode-cn.com/problems/zi-fu-chuan-de-pai-lie-lcof/)|
+|[149. 直线上最多的点数](src/lc149.java)|HASH|[leetcode-cn](https://leetcode-cn.com/problems/max-points-on-a-line/)|
+|[912. 排序数组](src/lc912.java)|排序|[leetcode-cn](https://leetcode-cn.com/problems/kth-largest-element-in-an-array/)|
+|[752. 打开转盘锁](src/lc752.java)|BFS|[leetcode-cn](https://leetcode-cn.com/problems/open-the-lock/)|
 
 ## Problemset Navigation 一刷
 
@@ -179,6 +181,7 @@ The `JAVA DEPENDENCIES` view allows you to manage your dependencies. More detail
 ### 13. BFS
 
 [<span style="color:#0099ff;">773. 滑动谜题</span>](src/lc773.java)/
+[<span style="color:#0099ff;">815. 公交路线</span>](src/lc815.java)/
 [<span style="color:#0099ff;">909. 蛇梯棋</span>](src/lc909.java)/
 
 ### 14. 数据结构
