@@ -167,6 +167,7 @@ The `JAVA DEPENDENCIES` view allows you to manage your dependencies. More detail
 [<span style="color:#0099ff;">剑指 Offer 40. 最小的k个数</span>](src/offer40.java)/
 [<span style="color:#0099ff;">剑指 Offer 41. 数据流中的中位数</span>](src/lc295offer41.java)/
 [<span style="color:#0099ff;">剑指 Offer 44. 数字序列中某一位的数字</span>](src/lc400offer44.java)/
+[<span style="color:#0099ff;">168. Excel表列名称</span>](src/lc168.java)/
 [<span style="color:#0099ff;">342. 4的幂</span>](src/lc342.java)/
 [<span style="color:#0099ff;">401. 二进制手表</span>](src/lc401.java)/
 [<span style="color:#0099ff;">461. 汉明距离</span>](src/lc461.java)/
