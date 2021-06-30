@@ -24,6 +24,7 @@ The `JAVA DEPENDENCIES` view allows you to manage your dependencies. More detail
 |[149. 直线上最多的点数](src/lc149.java)|HASH|[leetcode-cn](https://leetcode-cn.com/problems/max-points-on-a-line/)|
 |[912. 排序数组](src/lc912.java)|排序|[leetcode-cn](https://leetcode-cn.com/problems/kth-largest-element-in-an-array/)|
 |[752. 打开转盘锁](src/lc752.java)|BFS|[leetcode-cn](https://leetcode-cn.com/problems/open-the-lock/)|
+|[470. 用 Rand7() 实现 Rand10()](src/lc470.java)||[leetcode-cn](https://leetcode-cn.com/problems/implement-rand10-using-rand7/)|
 
 ## Problemset Navigation 一刷
 
