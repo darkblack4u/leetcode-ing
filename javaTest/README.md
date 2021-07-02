@@ -52,6 +52,7 @@ The `JAVA DEPENDENCIES` view allows you to manage your dependencies. More detail
 [<span style="color:#0099ff;">剑指 Offer 14- I. 剪绳子</span>](src/lc343offer14B.java)/
 [<span style="color:#0099ff;">45. 跳跃游戏 II</span>](src/lc55.java)/
 [<span style="color:#0099ff;">55. 跳跃游戏</span>](src/lc55.java)/
+[<span style="color:#0099ff;">1833. 雪糕的最大数量</span>](src/lc1833.java)/
 
 ### 3. 二叉树
 
