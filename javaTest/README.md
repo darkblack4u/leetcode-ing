@@ -71,7 +71,8 @@ The `JAVA DEPENDENCIES` view allows you to manage your dependencies. More detail
 ### 4. Hash
 
 [<span style="color:#0099ff;">1. 两数之和</span>](src/lc1.java)/
-[<span style="color:#0099ff;">149. 直线上最多的点数</span>](src/lc149.java)
+[<span style="color:#0099ff;">149. 直线上最多的点数</span>](src/lc149.java)/
+[<span style="color:#0099ff;">451. 根据字符出现频率排序</span>](src/lc451.java)/
 [<span style="color:#0099ff;">523. 连续的子数组和</span>](src/lc523.java)/
 [<span style="color:#0099ff;">525. 连续数组</span>](src/lc525.java)/
 [<span style="color:#0099ff;">781. 森林中的兔子</span>](src/lc781.java)/
