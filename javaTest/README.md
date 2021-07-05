@@ -176,6 +176,7 @@ The `JAVA DEPENDENCIES` view allows you to manage your dependencies. More detail
 [<span style="color:#0099ff;">461. 汉明距离</span>](src/lc461.java)/
 [<span style="color:#0099ff;">477. 汉明距离总和</span>](src/lc477.java)/
 [<span style="color:#0099ff;">692. 前K个高频单词</span>](src/lc692.java)/
+[<span style="color:#0099ff;">726. 原子的数量</span>](src/lc726.java)/
 [<span style="color:#0099ff;">1114. 按序打印(多线程)</span>](src/lc1114.java)/
 
 ### 12. 位运算
