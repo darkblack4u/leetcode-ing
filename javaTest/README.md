@@ -24,6 +24,8 @@ The `JAVA DEPENDENCIES` view allows you to manage your dependencies. More detail
 |[149. 直线上最多的点数](src/lc149.java)|HASH|[leetcode-cn](https://leetcode-cn.com/problems/max-points-on-a-line/)|
 |[912. 排序数组](src/lc912.java)|排序|[leetcode-cn](https://leetcode-cn.com/problems/kth-largest-element-in-an-array/)|
 |[752. 打开转盘锁](src/lc752.java)|BFS|[leetcode-cn](https://leetcode-cn.com/problems/open-the-lock/)|
+|[470. 用 Rand7() 实现 Rand10()](src/lc470.java)||[leetcode-cn](https://leetcode-cn.com/problems/implement-rand10-using-rand7/)|
+|[剑指 Offer 37. 序列化二叉树](src/lc297offer37.java)|BFS|[leetcode-cn](https://leetcode-cn.com/problems/serialize-and-deserialize-binary-tree/)|
 
 ## Problemset Navigation 一刷
 
@@ -50,6 +52,7 @@ The `JAVA DEPENDENCIES` view allows you to manage your dependencies. More detail
 [<span style="color:#0099ff;">剑指 Offer 14- I. 剪绳子</span>](src/lc343offer14B.java)/
 [<span style="color:#0099ff;">45. 跳跃游戏 II</span>](src/lc55.java)/
 [<span style="color:#0099ff;">55. 跳跃游戏</span>](src/lc55.java)/
+[<span style="color:#0099ff;">1833. 雪糕的最大数量</span>](src/lc1833.java)/
 
 ### 3. 二叉树
 
@@ -68,7 +71,8 @@ The `JAVA DEPENDENCIES` view allows you to manage your dependencies. More detail
 ### 4. Hash
 
 [<span style="color:#0099ff;">1. 两数之和</span>](src/lc1.java)/
-[<span style="color:#0099ff;">149. 直线上最多的点数</span>](src/lc149.java)
+[<span style="color:#0099ff;">149. 直线上最多的点数</span>](src/lc149.java)/
+[<span style="color:#0099ff;">451. 根据字符出现频率排序</span>](src/lc451.java)/
 [<span style="color:#0099ff;">523. 连续的子数组和</span>](src/lc523.java)/
 [<span style="color:#0099ff;">525. 连续数组</span>](src/lc525.java)/
 [<span style="color:#0099ff;">781. 森林中的兔子</span>](src/lc781.java)/
@@ -173,6 +177,7 @@ The `JAVA DEPENDENCIES` view allows you to manage your dependencies. More detail
 [<span style="color:#0099ff;">461. 汉明距离</span>](src/lc461.java)/
 [<span style="color:#0099ff;">477. 汉明距离总和</span>](src/lc477.java)/
 [<span style="color:#0099ff;">692. 前K个高频单词</span>](src/lc692.java)/
+[<span style="color:#0099ff;">726. 原子的数量</span>](src/lc726.java)/
 [<span style="color:#0099ff;">1114. 按序打印(多线程)</span>](src/lc1114.java)/
 
 ### 12. 位运算
