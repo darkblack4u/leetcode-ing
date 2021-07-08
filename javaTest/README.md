@@ -94,6 +94,7 @@ The `JAVA DEPENDENCIES` view allows you to manage your dependencies. More detail
 [<span style="color:#0099ff;">3. 无重复字符的最长子串</span>](src/lc3offer48.java)/
 [<span style="color:#0099ff;">42. 接雨水</span>](src/lc42.java)/
 [<span style="color:#0099ff;">234. 回文链表</span>](src/lc234nc96.java)/
+[<span style="color:#0099ff;">930. 和相同的二元子数组</span>](src/lc930.java)/
 [<span style="color:#0099ff;">剑指 Offer 22. 链表中倒数第k个节点</span>](src/offer22.java)/
 [<span style="color:#0099ff;">剑指 Offer 25. 合并两个排序的链表</span>](src/lc21offer25.java)/
 [<span style="color:#0099ff;">剑指 Offer 29. 顺时针打印矩阵</span>](src/lc54offer29.java)/
