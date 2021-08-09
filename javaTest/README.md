@@ -26,6 +26,8 @@ The `JAVA DEPENDENCIES` view allows you to manage your dependencies. More detail
 |[752. 打开转盘锁](src/lc752.java)|BFS|[leetcode-cn](https://leetcode-cn.com/problems/open-the-lock/)|
 |[470. 用 Rand7() 实现 Rand10()](src/lc470.java)||[leetcode-cn](https://leetcode-cn.com/problems/implement-rand10-using-rand7/)|
 |[剑指 Offer 37. 序列化二叉树](src/lc297offer37.java)|BFS|[leetcode-cn](https://leetcode-cn.com/problems/serialize-and-deserialize-binary-tree/)|
+|[剑指 Offer II 001. 整数除法](src/lc29offer001A.java)|位运算|[leetcode-cn](https://leetcode-cn.com/problems/divide-two-integers/)|
+
 
 ## Problemset Navigation 一刷
 
