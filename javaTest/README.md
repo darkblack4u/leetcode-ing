@@ -28,6 +28,7 @@ The `JAVA DEPENDENCIES` view allows you to manage your dependencies. More detail
 |[剑指 Offer 37. 序列化二叉树](src/lc297offer37.java)|BFS|[leetcode-cn](https://leetcode-cn.com/problems/serialize-and-deserialize-binary-tree/)|
 |[剑指 Offer II 001. 整数除法](src/lc29offer001A.java)|位运算|[leetcode-cn](https://leetcode-cn.com/problems/divide-two-integers/)|
 |[338. 比特位计数](src/lc338.java)|位运算|[leetcode-cn](https://leetcode-cn.com/problems/counting-bits/)|
+[[260. 只出现一次的数字 III](src/lc260nc75.java)|位运算|[leetcode-cn](https://leetcode-cn.com/problems/single-number-ii/)|
 
 
 ## Problemset Navigation 一刷
@@ -38,6 +39,7 @@ The `JAVA DEPENDENCIES` view allows you to manage your dependencies. More detail
 [<span style="color:#0099ff;">79. 完全平方数</span>](src/lc79.java)/
 [<span style="color:#0099ff;">198. 打家劫舍</span>](src/lc198.java)/
 [<span style="color:#0099ff;">213. 打家劫舍 II [环形]</span>](src/lc213.java)/
+[<span style="color:#0099ff;">313. 超级丑数</span>](src/lc313.java)/
 [<span style="color:#0099ff;">322. 零钱兑换</span>](src/lc322.java)/
 [<span style="color:#0099ff;">474. 一和零</span>](src/lc474.java)/
 [<span style="color:#0099ff;">518. 零钱兑换 II</span>](src/lc518.java)/
@@ -188,6 +190,7 @@ The `JAVA DEPENDENCIES` view allows you to manage your dependencies. More detail
 ### 12. 位运算
 
 [<span style="color:#0099ff;">剑指 Offer 15. 二进制中1的个数</span>](src/lc191offer15.java)/
+[<span style="color:#0099ff;">318. 最大单词长度乘积</span>](src/lc318.java)/
 
 ### 13. BFS
 
