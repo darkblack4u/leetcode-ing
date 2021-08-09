@@ -27,6 +27,7 @@ The `JAVA DEPENDENCIES` view allows you to manage your dependencies. More detail
 |[470. 用 Rand7() 实现 Rand10()](src/lc470.java)||[leetcode-cn](https://leetcode-cn.com/problems/implement-rand10-using-rand7/)|
 |[剑指 Offer 37. 序列化二叉树](src/lc297offer37.java)|BFS|[leetcode-cn](https://leetcode-cn.com/problems/serialize-and-deserialize-binary-tree/)|
 |[剑指 Offer II 001. 整数除法](src/lc29offer001A.java)|位运算|[leetcode-cn](https://leetcode-cn.com/problems/divide-two-integers/)|
+|[338. 比特位计数](src/lc338.java)|位运算|[leetcode-cn](https://leetcode-cn.com/problems/counting-bits/)|
 
 
 ## Problemset Navigation 一刷
@@ -83,6 +84,7 @@ The `JAVA DEPENDENCIES` view allows you to manage your dependencies. More detail
 ### 5. 链表
 
 [<span style="color:#0099ff;">2. 两数相加</span>](src/lc2.java)/
+[<span style="color:#0099ff;">67. 二进制求和</span>](src/lc67.java)/
 [<span style="color:#0099ff;">25. K 个一组翻转链表</span>](src/lc25.java)/
 [<span style="color:#0099ff;">148. 排序链表</span>](src/lc148.java)/
 [<span style="color:#0099ff;">203. 移除链表元素</span>](src/lc203.java)/
