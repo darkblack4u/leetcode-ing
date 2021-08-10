@@ -180,6 +180,7 @@ The `JAVA DEPENDENCIES` view allows you to manage your dependencies. More detail
 [<span style="color:#0099ff;">168. Excel表列名称</span>](src/lc168.java)/
 [<span style="color:#0099ff;">342. 4的幂</span>](src/lc342.java)/
 [<span style="color:#0099ff;">401. 二进制手表</span>](src/lc401.java)/
+[<span style="color:#0099ff;">413. 等差数列划分</span>](src/lc413.java)/
 [<span style="color:#0099ff;">461. 汉明距离</span>](src/lc461.java)/
 [<span style="color:#0099ff;">477. 汉明距离总和</span>](src/lc477.java)/
 [<span style="color:#0099ff;">692. 前K个高频单词</span>](src/lc692.java)/
