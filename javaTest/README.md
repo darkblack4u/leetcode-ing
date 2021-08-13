@@ -28,7 +28,8 @@ The `JAVA DEPENDENCIES` view allows you to manage your dependencies. More detail
 |[剑指 Offer 37. 序列化二叉树](src/lc297offer37.java)|BFS|[leetcode-cn](https://leetcode-cn.com/problems/serialize-and-deserialize-binary-tree/)|
 |[剑指 Offer II 001. 整数除法](src/lc29offer001A.java)|位运算|[leetcode-cn](https://leetcode-cn.com/problems/divide-two-integers/)|
 |[338. 比特位计数](src/lc338.java)|位运算|[leetcode-cn](https://leetcode-cn.com/problems/counting-bits/)|
-[[260. 只出现一次的数字 III](src/lc260nc75.java)|位运算|[leetcode-cn](https://leetcode-cn.com/problems/single-number-ii/)|
+|[260. 只出现一次的数字 III](src/lc260nc75.java)|位运算|[leetcode-cn](https://leetcode-cn.com/problems/single-number-ii/)|
+|[446. 等差数列划分 II - 子序列](src/lc446.java)|数组+Hash|[leetcode-cn](https://leetcode-cn.com/problems/arithmetic-slices-ii-subsequence/)|
 
 
 ## Problemset Navigation 一刷
@@ -42,6 +43,7 @@ The `JAVA DEPENDENCIES` view allows you to manage your dependencies. More detail
 [<span style="color:#0099ff;">313. 超级丑数</span>](src/lc313.java)/
 [<span style="color:#0099ff;">322. 零钱兑换</span>](src/lc322.java)/
 [<span style="color:#0099ff;">474. 一和零</span>](src/lc474.java)/
+[<span style="color:#0099ff;">516. 最长回文子序列</span>](src/lc516.java)/
 [<span style="color:#0099ff;">518. 零钱兑换 II</span>](src/lc518.java)/
 [<span style="color:#0099ff;">664. 奇怪的打印机</span>](src/lc664.java)/
 [<span style="color:#0099ff;">1049. 最后一块石头的重量 II</span>](src/lc1049.java)/
@@ -50,6 +52,7 @@ The `JAVA DEPENDENCIES` view allows you to manage your dependencies. More detail
 [<span style="color:#0099ff;">剑指 Offer 10- I. 斐波那契数列</span>](src/offer10A.java)/
 [<span style="color:#0099ff;">剑指 Offer 10- II. 青蛙跳台阶问题</span>](src/lc70offer10B.java)/
 [<span style="color:#0099ff;">剑指 Offer 42. 连续子数组的最大和</span>](src/lc53offer42.java)/
+[<span style="color:#0099ff;">剑指 Offer 49. 丑数</span>](src/lc264offer49.java)/
 
 ### 2. 贪心算法
 
@@ -177,6 +180,7 @@ The `JAVA DEPENDENCIES` view allows you to manage your dependencies. More detail
 [<span style="color:#0099ff;">剑指 Offer 31. 栈的压入、弹出序列</span>](src/lc946offer31.java)/
 [<span style="color:#0099ff;">剑指 Offer 40. 最小的k个数</span>](src/offer40.java)/
 [<span style="color:#0099ff;">剑指 Offer 41. 数据流中的中位数</span>](src/lc295offer41.java)/
+[<span style="color:#0099ff;">剑指 Offer 43. 1～n 整数中 1 出现的次数</span>](src/lc233offer43.java)/
 [<span style="color:#0099ff;">剑指 Offer 44. 数字序列中某一位的数字</span>](src/lc400offer44.java)/
 [<span style="color:#0099ff;">168. Excel表列名称</span>](src/lc168.java)/
 [<span style="color:#0099ff;">342. 4的幂</span>](src/lc342.java)/
