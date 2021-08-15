@@ -1,6 +1,8 @@
 resume.md
 numpy/.ipynb_checkpoints/
 py-master/
-slides/
-ML/
+slides/hylee-ml2021-course/*[0-9].pdf
+
 nohup.out
+ML/.ipynb_checkpoints
+ML/*/.ipynb_checkpoints/
