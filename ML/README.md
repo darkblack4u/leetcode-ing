@@ -12,8 +12,7 @@
 
 > ## 2. sklearn
 
-> ### 1. sklearn.linear_model
-**sklearn.linear_model** 线性模型 [api](https://scikit-learn.org/stable/modules/linear_model.html) `coef_`系数/`intercept_`Bias
+> ### 2.1. sklearn.linear_model 线性模型 [api](https://scikit-learn.org/stable/modules/linear_model.html) `coef_` (系数)/`intercept_` (Bias)
 
 - `LinearRegression` [api](https://scikit-learn.org/stable/modules/generated/sklearn.linear_model.LinearRegression.html#sklearn.linear_model.LinearRegression) [source](https://github.com/scikit-learn/scikit-learn/blob/2beed5584/sklearn/linear_model/_base.py#L391)
     - todo
@@ -30,3 +29,10 @@
     - `random_state`: int seed，RandomState实例或None（默认）伪随机数生成器的种子，当混洗数据时使用。 仅用于’sag’求解器。新版本0.17：random_state支持随机平均渐变。
 - `RidgeClassifier` 岭分类，L2正则，同`Ridge`，不同的是输出{-1, 1}。并且可以多分类
     - `class_weight`: dict or ‘balanced’, default=None
+- `RidgeCV` Ridge regression with built-in cross-validation. 
+    - `alphas`: Array of alpha values to try. default=(0.1, 1.0, 10.0)
+    - `cv`: int, cross-validation generator or an iterable, default=None
+        - None, to use the efficient Leave-One-Out cross-validation, if y is binary or multiclass, StratifiedKFold is used
+        - integer, to specify the number of folds. if y is binary or multiclass, `StratifiedKFold` is used
+        - CV splitter [api](https://scikit-learn.org/stable/glossary.html#term-CV-splitter)
+        - An iterable yielding (train, test) splits as arrays of indices.
