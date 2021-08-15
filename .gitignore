@@ -5,3 +5,4 @@ slides/hylee-ml2021-course/*[0-9].pdf
 
 nohup.out
 ML/.ipynb_checkpoints
+ML/*/.ipynb_checkpoints/
