@@ -14,8 +14,7 @@
 
 > ### 2.1. sklearn.linear_model 线性模型 [api](https://scikit-learn.org/stable/modules/linear_model.html) `coef_` (系数)/`intercept_` (Bias)
 
-- `LinearRegression` [api](https://scikit-learn.org/stable/modules/generated/sklearn.linear_model.LinearRegression.html#sklearn.linear_model.LinearRegression) [source](https://github.com/scikit-learn/scikit-learn/blob/2beed5584/sklearn/linear_model/_base.py#L391)
-    - todo
+- `LinearRegression` [api](https://scikit-learn.org/stable/modules/generated/sklearn.linear_model.LinearRegression.html#sklearn.linear_model.LinearRegression) [source](https://github.com/scikit-learn/scikit-learn/blob/2beed5584/sklearn/linear_model/_base.py#L391) `LinearRegression(*, fit_intercept=True, normalize=False, copy_X=True, n_jobs=None, positive=False)`
 - `Ridge` 岭回归，L2正则 [api](https://scikit-learn.org/stable/modules/generated/sklearn.linear_model.Ridge.html#sklearn.linear_model.Ridge) [source](https://github.com/scikit-learn/scikit-learn/blob/2beed5584/sklearn/linear_model/_ridge.py#L603) `sklearn.linear_model.Ridge(alpha=1.0, *, fit_intercept=True, normalize=False, copy_X=True, max_iter=None, tol=0.001, solver='auto', random_state=None)`
     - `alpha`: 正则化强度; 必须是正浮点数。
     - `solver`: `{‘auto’，’svd’，’cholesky’，’lsqr’，’sparse_cg’，’sag’}`, 用于计算的求解方法：
@@ -32,7 +31,15 @@
 - `RidgeCV` Ridge regression with built-in cross-validation. 
     - `alphas`: Array of alpha values to try. default=(0.1, 1.0, 10.0)
     - `cv`: int, cross-validation generator or an iterable, default=None
-        - None, to use the efficient Leave-One-Out cross-validation, if y is binary or multiclass, StratifiedKFold is used
+        - None, to use the efficient Leave-One-Out cross-validation, if y is binary or multiclass, `StratifiedKFold` is used
         - integer, to specify the number of folds. if y is binary or multiclass, `StratifiedKFold` is used
         - CV splitter [api](https://scikit-learn.org/stable/glossary.html#term-CV-splitter)
         - An iterable yielding (train, test) splits as arrays of indices.
+- `RidgeClassifierCV` 
+
+> ### 2.2 sklearn.model_selection 模型选择 [api](https://scikit-learn.org/stable/modules/classes.html#module-sklearn.model_selection)
+
+- `KFold`: K-Folds cross-validator. `KFold(n_splits=5, *, shuffle=False, random_state=None)`
+- `RepeatedKFold`: `RepeatedKFold(*, n_splits=5, n_repeats=10, random_state=None)`
+- `StratifiedKFold`: 分层K-折叠交叉验证程序。`StratifiedKFold(n_splits=5, *, shuffle=False, random_state=None)` **能确保每一类的分布跟原数据集一致**
+- `RepeatedStratifiedKFold`: Repeated Stratified K-Fold cross validator. `RepeatedStratifiedKFold(*, n_splits=5, n_repeats=10, random_state=None)`
