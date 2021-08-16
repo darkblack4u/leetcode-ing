@@ -1,14 +1,19 @@
 > ## 1. pandas
 
-**pandas.read_csv** [api](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.read_csv.html) [source](https://github.com/pandas-dev/pandas/blob/v1.3.1/pandas/io/parsers/readers.py#L491-L586) return **pandas.DataFrame**
+- **pandas.read_csv** [api](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.read_csv.html) [source](https://github.com/pandas-dev/pandas/blob/v1.3.1/pandas/io/parsers/readers.py#L491-L586) return **pandas.DataFrame**
 
-**pandas.DataFrame** [api](https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.html) [source](https://github.com/pandas-dev/pandas/blob/v1.3.1/pandas/core/frame.py#L456-L10748)
-- `drop`删除行或者列 DataFrame.drop(labels=None, axis=0, index=None, columns=None, level=None, inplace=False, errors='raise') [source](https://github.com/pandas-dev/pandas/blob/v1.3.1/pandas/core/frame.py#L4769-L4909)
-    - `labels`: single label or list-like
-    - `axis`: {0 or ‘index’, 1 or ‘columns’}, default 0
-    - `index`: single label or list-like
-    - `columns`: single label or list-like
-- `to_csv`写CSV文件
+- **pandas.DataFrame** [api](https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.html) [source](https://github.com/pandas-dev/pandas/blob/v1.3.1/pandas/core/frame.py#L456-L10748)
+    - `drop`删除行或者列 DataFrame.drop(labels=None, axis=0, index=None, columns=None, level=None, inplace=False, errors='raise') [source](https://github.com/pandas-dev/pandas/blob/v1.3.1/pandas/core/frame.py#L4769-L4909)
+        - `labels`: single label or list-like
+        - `axis`: {0 or ‘index’, 1 or ‘columns’}, default 0
+        - `index`: single label or list-like
+        - `columns`: single label or list-like
+    - `to_csv`写CSV文件
+    - `fillna`: 补全空值
+- **get_dummies** 将分类变量转换为虚拟/指示符变量.one_hot_encoding
+    - `get_dummies(data, prefix=None, prefix_sep='_', dummy_na=False, columns=None, sparse=False, drop_first=False, dtype=None)` [api](https://pandas.pydata.org/docs/reference/api/pandas.get_dummies.html) [source](https://github.com/pandas-dev/pandas/blob/v1.3.2/pandas/core/reshape/reshape.py#L774-L957)
+- **concat** 链接两个df，eg：`pd.concat([df,dummies],axis='columns')`
+
 
 > ## 2. sklearn
 
@@ -43,3 +48,49 @@
 - `RepeatedKFold`: `RepeatedKFold(*, n_splits=5, n_repeats=10, random_state=None)`
 - `StratifiedKFold`: 分层K-折叠交叉验证程序。`StratifiedKFold(n_splits=5, *, shuffle=False, random_state=None)` **能确保每一类的分布跟原数据集一致**
 - `RepeatedStratifiedKFold`: Repeated Stratified K-Fold cross validator. `RepeatedStratifiedKFold(*, n_splits=5, n_repeats=10, random_state=None)`
+
+> ### 2.3 sklearn.preprocessing 预处理
+
+主要方法: `fit_transform`, `fit`, `transform`
+
+- `OrdinalEncoder`: Encode categorical features as an integer array. [api](https://scikit-learn.org/stable/modules/generated/sklearn.preprocessing.OrdinalEncoder.html#sklearn.preprocessing.OrdinalEncoder)
+- `OneHotEncoder`: 使用K中的一个，也称为一个热编码或伪编码。[api](https://scikit-learn.org/stable/modules/generated/sklearn.preprocessing.OneHotEncoder.html#sklearn.preprocessing.OneHotEncoder)
+- `normalize`: Scale input vectors individually to unit norm (vector length). [api](https://scikit-learn.org/stable/modules/generated/sklearn.preprocessing.normalize.html#sklearn.preprocessing.normalize)
+- `StandardScaler`: 线性变换z=(x-u)/s [api](https://scikit-learn.org/stable/modules/generated/sklearn.preprocessing.StandardScaler.html#sklearn.preprocessing.StandardScaler)
+- `MinMaxScaler`: 线性变换到[min, max]，默认[0, 1] [api](https://scikit-learn.org/stable/modules/generated/sklearn.preprocessing.MinMaxScaler.html#sklearn.preprocessing.MinMaxScaler)
+- `MaxAbsScaler`: 线性变换到[-a, a], 默认[-1, 1] [api](https://scikit-learn.org/stable/modules/generated/sklearn.preprocessing.MaxAbsScaler.html#sklearn.preprocessing.MaxAbsScaler)
+- `Binarizer`: 二值化 >threshold为1，否则为0 [api](https://scikit-learn.org/stable/modules/generated/sklearn.preprocessing.Binarizer.html#sklearn.preprocessing.Binarizer)
+- `KBinsDiscretizer`: 将连续数据分为若干间隔。 [api](https://scikit-learn.org/stable/modules/generated/sklearn.preprocessing.KBinsDiscretizer.html#sklearn.preprocessing.KBinsDiscretizer)
+- `PolynomialFeatures`: 生成多项式特征。[a, b], the degree-2 polynomial features are [1, a, b, a^2, ab, b^2]. [api](https://scikit-learn.org/stable/modules/generated/sklearn.preprocessing.PolynomialFeatures.html#sklearn.preprocessing.PolynomialFeatures)
+- `FunctionTransformer`: 从任意可调用函数构造转换器。[api](https://scikit-learn.org/stable/modules/generated/sklearn.preprocessing.FunctionTransformer.html#sklearn.preprocessing.FunctionTransformer)
+
+> ## 3. 梯度下降 gradient_descent
+
+```Python
+def gradient_descent(x,y):
+    m_curr = b_curr = 0
+    iterations = 1000000
+    n = len(x)
+    learning_rate = 0.0002
+
+    # cost_previous = 0
+
+    for i in range(iterations):
+        y_predicted = m_curr * x + b_curr
+        # cost = (1/n)*sum([value**2 for value in (y-y_predicted)])
+        md = -(2/n)*sum(x*(y-y_predicted))
+        bd = -(2/n)*sum(y-y_predicted)
+        m_curr = m_curr - learning_rate * md
+        b_curr = b_curr - learning_rate * bd
+        # if math.isclose(cost, cost_previous, rel_tol=1e-20):
+            # break # 下降太小
+        cost_previous = cost
+        print ("m {}, b {}, cost {}, iteration {}".format(m_curr,b_curr,cost, i))
+
+    return m_curr, b_curr
+```
+
+> ## 4. pickle 
+
+- `load`: 读取Model pickle.load(file, *, fix_imports=True, encoding="ASCII", errors="strict", buffers=None)
+- `dump`: 保存Model pickle.dump(obj, file, protocol=None, *, fix_imports=True, buffer_callback=None)
