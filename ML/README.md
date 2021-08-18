@@ -41,9 +41,12 @@
         - CV splitter [api](https://scikit-learn.org/stable/glossary.html#term-CV-splitter)
         - An iterable yielding (train, test) splits as arrays of indices.
 - `RidgeClassifierCV` 
+- `LogisticRegression`: 
 
 > ### 2.2 sklearn.model_selection 模型选择 [api](https://scikit-learn.org/stable/modules/classes.html#module-sklearn.model_selection)
 
+- `train_test_split`: 划分训练机和验证集 eg: `X_train, X_test, y_train, y_test = train_test_split(X,y,test_size=0.3) ` [api](http://scikit-learn.org/stable/modules/generated/sklearn.model_selection.train_test_split.html)
+    - sklearn.model_selection.train_test_split(*arrays, test_size=None, train_size=None, random_state=None, shuffle=True, stratify=None)
 - `KFold`: K-Folds cross-validator. `KFold(n_splits=5, *, shuffle=False, random_state=None)`
 - `RepeatedKFold`: `RepeatedKFold(*, n_splits=5, n_repeats=10, random_state=None)`
 - `StratifiedKFold`: 分层K-折叠交叉验证程序。`StratifiedKFold(n_splits=5, *, shuffle=False, random_state=None)` **能确保每一类的分布跟原数据集一致**
@@ -94,3 +97,11 @@ def gradient_descent(x,y):
 
 - `load`: 读取Model pickle.load(file, *, fix_imports=True, encoding="ASCII", errors="strict", buffers=None)
 - `dump`: 保存Model pickle.dump(obj, file, protocol=None, *, fix_imports=True, buffer_callback=None)
+
+> ## 5. Sigmoid
+
+```Python
+import math
+def sigmoid(x):
+  return 1 / (1 + math.exp(-x))
+```
