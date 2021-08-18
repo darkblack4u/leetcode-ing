@@ -42,6 +42,14 @@
         - An iterable yielding (train, test) splits as arrays of indices.
 - `RidgeClassifierCV` 
 - `LogisticRegression`: 
+    - `decision_function(X)`
+    : Predict confidence scores for samples.
+    - `densify()`: Convert coefficient matrix to dense array format.
+    - `predict(X)`: Predict class labels for samples in X.
+    - `predict_log_proba(X)`: Predict logarithm of probability estimates.
+    - `predict_proba(X)`: Probability estimates.
+
+Convert coefficient matrix to sparse format.
 
 > ### 2.2 sklearn.model_selection 模型选择 [api](https://scikit-learn.org/stable/modules/classes.html#module-sklearn.model_selection)
 
@@ -66,6 +74,50 @@
 - `KBinsDiscretizer`: 将连续数据分为若干间隔。 [api](https://scikit-learn.org/stable/modules/generated/sklearn.preprocessing.KBinsDiscretizer.html#sklearn.preprocessing.KBinsDiscretizer)
 - `PolynomialFeatures`: 生成多项式特征。[a, b], the degree-2 polynomial features are [1, a, b, a^2, ab, b^2]. [api](https://scikit-learn.org/stable/modules/generated/sklearn.preprocessing.PolynomialFeatures.html#sklearn.preprocessing.PolynomialFeatures)
 - `FunctionTransformer`: 从任意可调用函数构造转换器。[api](https://scikit-learn.org/stable/modules/generated/sklearn.preprocessing.FunctionTransformer.html#sklearn.preprocessing.FunctionTransformer)
+
+
+> ### 2.4 sklearn.datasets 数据集 [api](https://scikit-learn.org/stable/modules/classes.html#module-sklearn.datasets)
+
+- `load_digits()`: 	Load and return the digits dataset (classification) 数字分类. [api](https://scikit-learn.org/stable/modules/generated/sklearn.datasets.load_digits.html#sklearn.datasets.load_digits)
+
+
+> ### 2.5 sklearn.metrics 指标 [api](https://scikit-learn.org/stable/modules/classes.html#module-sklearn.metrics)
+
+- Classification metrics 常用
+    - `accuracy_score`
+    - `auc`
+    - `average_precision_score`
+    - `balanced_accuracy_score`
+    - `classification_report`
+    - `cohen_kappa_score`
+    - `confusion_matrix`
+    - `multilabel_confusion_matrix`
+    - `f1_score`
+    - `fbeta_score`
+    - `hamming_loss`
+    - `log_loss`
+    - `hinge_loss`
+    - `zero_one_loss`
+    - `precision_recall_curve`
+    - `precision_recall_fscore_support`
+    - `precision_score`
+    - `recall_score`
+    - `roc_auc_score`
+    - `roc_curve`
+    - `top_k_accuracy_score`
+    - `zero_one_loss`
+- Regression metrics
+    - 
+
+> ### 2.6 sklearn.tree: Decision Trees
+
+- `tree.DecisionTreeClassifier`: A decision tree classifier. max_depth和max_leaf_nodes都能限制树的生长
+- `tree.DecisionTreeRegressor`: A decision tree regressor.
+- `tree.ExtraTreeClassifier`: An extremely randomized tree classifier.
+- `tree.ExtraTreeRegressor`: An extremely randomized tree regressor.
+- `tree.export_graphviz(decision_tree[, …])`: Export a decision tree in DOT format.
+- `tree.export_text(decision_tree, *[, …])`: Build a text report showing the rules of a decision tree.
+- `tree.plot_tree(decision_tree, *[, …])`: Plot a decision tree.
 
 > ## 3. 梯度下降 gradient_descent
 
