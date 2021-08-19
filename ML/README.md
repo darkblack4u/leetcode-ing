@@ -109,7 +109,7 @@ Convert coefficient matrix to sparse format.
 - Regression metrics
     - 
 
-> ### 2.6 sklearn.tree: Decision Trees
+> ### 2.6 sklearn.tree: Decision Trees [api](https://scikit-learn.org/stable/modules/classes.html#module-sklearn.tree)
 
 - `tree.DecisionTreeClassifier`: A decision tree classifier. max_depth和max_leaf_nodes都能限制树的生长
 - `tree.DecisionTreeRegressor`: A decision tree regressor.
@@ -118,6 +118,43 @@ Convert coefficient matrix to sparse format.
 - `tree.export_graphviz(decision_tree[, …])`: Export a decision tree in DOT format.
 - `tree.export_text(decision_tree, *[, …])`: Build a text report showing the rules of a decision tree.
 - `tree.plot_tree(decision_tree, *[, …])`: Plot a decision tree.
+
+
+> ### 2.7 sklearn.svm [api](https://scikit-learn.org/stable/modules/classes.html#module-sklearn.svm)
+
+- `svm.LinearSVC([penalty, loss, dual, tol, C, …])`: Linear Support Vector Classification.
+- `svm.LinearSVR(*[, epsilon, tol, C, loss, …])`: Linear Support Vector Regression.
+- `svm.NuSVC(*[, nu, kernel, degree, gamma, …])`: Nu-Support Vector Classification.
+- `svm.NuSVR(*[, nu, C, kernel, degree, gamma, …])`: Nu Support Vector Regression.
+- `svm.OneClassSVM(*[, kernel, degree, gamma, …])`: Unsupervised Outlier Detection.
+- `svm.SVC(*[, C, kernel, degree, gamma, …])`: C-Support Vector Classification.
+- `svm.SVR(*[, kernel, degree, gamma, coef0, …])`: Epsilon-Support Vector Regression.
+- `svm.l1_min_c(X, y, *[, loss, fit_intercept, …])`: Return the lowest bound for C such that for C in (l1_min_C, infinity) the model is guaranteed not to be empty.
+
+> ### 2.8 sklearn.ensemble: Ensemble Methods [api](https://scikit-learn.org/stable/modules/classes.html#module-sklearn.ensemble)
+
+- `ensemble.AdaBoostClassifier([…])`:  An AdaBoost classifier.
+- `ensemble.AdaBoostRegressor([base_estimator, …])`: An AdaBoost regressor.
+- `ensemble.BaggingClassifier([base_estimator, …])`: A Bagging classifier.
+- `ensemble.BaggingRegressor([base_estimator, …])`: A Bagging regressor.
+- `ensemble.ExtraTreesClassifier([…])`: An extra-trees classifier.
+- `ensemble.ExtraTreesRegressor([n_estimators, …])`: An extra-trees regressor.
+- `ensemble.GradientBoostingClassifier(*[, …])`: Gradient Boosting for classification.
+- `ensemble.GradientBoostingRegressor(*[, …])`: Gradient Boosting for regression.
+- `ensemble.IsolationForest(*[, n_estimators, …])`: Isolation Forest Algorithm.
+- `ensemble.RandomForestClassifier([…])`: A random forest classifier.
+- `ensemble.RandomForestRegressor([…])`: A random forest regressor.
+- `ensemble.RandomTreesEmbedding([…])`: An ensemble of totally random trees.
+- `ensemble.StackingClassifier(estimators[, …])`: Stack of estimators with a final classifier.
+- `ensemble.StackingRegressor(estimators[, …])`: Stack of estimators with a final regressor.
+- `ensemble.VotingClassifier(estimators, *[, …])`: Soft Voting/Majority Rule classifier for unfitted estimators.
+- `ensemble.VotingRegressor(estimators, *[, …])`: Prediction voting regressor for unfitted estimators.
+- `ensemble.HistGradientBoostingRegressor([…])`: Histogram-based Gradient Boosting Regression Tree.
+- `ensemble.HistGradientBoostingClassifier([…])`: Histogram-based Gradient Boosting Classification Tree.
+
+> ### 2.9 sklearn.cluster聚类
+
+> ### 2.10 sklearn.naive_bayes
 
 > ## 3. 梯度下降 gradient_descent
 
