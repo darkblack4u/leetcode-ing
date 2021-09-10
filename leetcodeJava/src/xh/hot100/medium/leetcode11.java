@@ -1,4 +1,4 @@
-package xh.hot100;
+package xh.hot100.medium;
 
 public class leetcode11 {
     public static void main(String[] args) {

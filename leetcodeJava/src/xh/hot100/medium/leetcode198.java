@@ -1,4 +1,4 @@
-package xh.hot100;
+package xh.hot100.medium;
 
 public class leetcode198 {
     public int rob(int[] nums) {

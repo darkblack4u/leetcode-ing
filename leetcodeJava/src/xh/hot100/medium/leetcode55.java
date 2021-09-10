@@ -1,4 +1,4 @@
-package xh.hot100;
+package xh.hot100.medium;
 
 public class leetcode55 {
     public boolean canJump(int[] nums) {

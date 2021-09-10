@@ -1,4 +1,4 @@
-package xh.hot100;
+package xh.hot100.medium;
 
 import java.util.*;
 
