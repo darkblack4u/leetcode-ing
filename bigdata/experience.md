@@ -4,7 +4,7 @@
 
 ![image](http://p2.pstatp.com/large/pgc-image/15266254152789f8c307dee)
 
-> ## MapReduce中排序发生在哪几个阶段？？这些排序是否可以避免，为什么？？
+> **`MapReduce中排序发生在哪几个阶段？？这些排序是否可以避免，为什么？？`**
 
 发生sort有两个地方
 - 一个是在map side发生在spill后 partition前
@@ -12,7 +12,7 @@
 - 一个是在reduce side 发生在copy后 reduce前
     - MR在reduce阶段需要分组，将key相同的放在一起进行规约，为了达到该目的，有两种算法：hashmap和sort，前者太耗内存，而排序通过外排可对任意数据量分组，只要磁盘够大就行。
 
-> ## Hadoop中分片split的原理解析
+> **`Hadoop中分片split的原理解析`**
 
 split：split是逻辑切片，在mapreduce中的map task开始之前，将文件按照指定的大小切割成若干个部分，每一部分称为一个split，默认是split的大小与block的大小相等，均为128MB。
 

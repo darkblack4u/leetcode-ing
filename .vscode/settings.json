@@ -2,7 +2,9 @@
     "python.pythonPath": "/root/miniconda3/bin/python",
     "python.formatting.provider": "black",
     "java.project.sourcePaths": [
-        "javaTest/javaCode/src-bak",
-        "javaTest/src"
+        "leetcodeJava/src/leetcode",
+        "leetcodeJava/src/hot100",
+        "javaTest/src",
+        "leetcodeJava/src"
     ]
 }

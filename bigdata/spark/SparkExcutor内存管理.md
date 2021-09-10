@@ -4,7 +4,7 @@
 
 另外，Spark 1.6 之前使用的是静态内存管理 (StaticMemoryManager) 机制，StaticMemoryManager 也是 Spark 1.6 之前唯一的内存管理器。在 Spark1.6 之后引入了**统一内存管理 (UnifiedMemoryManager) 机制**，UnifiedMemoryManager 是 Spark 1.6 之后默认的内存管理器，1.6 之前采用的静态管理（StaticMemoryManager）方式仍被保留，可通过配置 spark.memory.useLegacyMode 参数启用。这里仅对统一内存管理模块 (UnifiedMemoryManager) 机制进行分析。
 
-> ### Executor内存总体布局
+> **`Executor内存总体布局`**
 
 默认情况下，Executor不开启堆外内存，因此整个 Executor 端内存布局如下图所示:
 
@@ -28,10 +28,11 @@
 对于Yarn集群，存在: ExecutorMemory + MemoryOverhead <= MonitorMemory，若应用提交之时，指定的 ExecutorMemory 与 MemoryOverhead 之和大于 MonitorMemory，则会导致 Executor 申请失败；若运行过程中，实际使用内存超过上限阈值，Executor 进程会被 Yarn 终止掉 (kill)。
 ```
 
-> ## 统一内存管理
+> **`统一内存管理`**
+
 Spark 1.6之后引入了统一内存管理，包括了**堆内内存 (On-heap Memory)** 和**堆外内存 (Off-heap Memory)** 两大区域，下面对这两块区域进行详细的说明。
 
-> ### 堆内内存 (On-heap Memory)
+> **`堆内内存 (On-heap Memory)`**
 
 默认情况下，Spark 仅仅使用了堆内内存。Spark 对堆内内存的管理是一种逻辑上的“规划式”的管理，Executor 端的堆内内存区域在逻辑上被划分为以下四个区域:
 
@@ -63,7 +64,7 @@ NOTES
 spark.memory.fraction 最初版本的值是 0.75，很多分析统一内存管理这块的文章也是这么介绍的，同样的，在使用中发现这个值设置的偏高，导致了 gc 时间过长，spark 2.0 版本将其调整为 0.6，详细谈论参见 Reduce spark.memory.fraction default to avoid overrunning old gen in JVM default config。
 ```
 
-> ### 堆外内存 (Off-heap Memory)
+> **`堆外内存 (Off-heap Memory)`**
 
 Spark 1.6 开始引入了 Off-heap memory (详见SPARK-11389)。这种模式不在 JVM 内申请内存，而是调用 Java 的 unsafe 相关 API 进行诸如 C 语言里面的 malloc() 直接向操作系统申请内存。这种方式下 Spark 可以直接操作系统堆外内存，减少了不必要的内存开销，以及频繁的 GC 扫描和回收，提升了处理性能。另外，堆外内存可以被精确地申请和释放，而且序列化的数据占用的空间可以被精确计算，所以相比堆内内存来说降低了管理的难度，也降低了误差。，缺点是必须自己编写内存申请和释放的逻辑。
 
@@ -81,7 +82,8 @@ Spark 1.6 开始引入了 Off-heap memory (详见SPARK-11389)。这种模式不�
 2. 执行内存 (Execution Memory)
 内存占比为 maxOffHeapMemory * (1 - spark.memory.storageFraction)，Spark 2+ 中，默认初始状态下 Storage Memory 和 Execution Memory 均约占系统总内存的50%（1 * (1 - 0.5) = 0.5）。在 UnifiedMemory 管理中，这两部分内存可以相互借用，具体借用机制我们下一小节会详细介绍。
 
-> ### Execution 内存和 Storage 内存动态占用机制
+> **`Execution 内存和 Storage 内存动态占用机制`**
+
 在 Spark 1.5 之前，Execution 内存和 Storage 内存分配是静态的，换句话说就是如果 Execution 内存不足，即使 Storage 内存有很大空闲程序也是无法利用到的；反之亦然。
 
 静态内存管理机制实现起来较为简单，但如果用户不熟悉 Spark 的存储机制，或没有根据具体的数据规模和计算任务或做相应的配置，很容易造成”一半海水，一半火焰”的局面，即存储内存和执行内存中的一方剩余大量的空间，而另一方却早早被占满，不得不淘汰或移出旧的内容以存储新的内容。
@@ -97,7 +99,8 @@ Spark 1.6 开始引入了 Off-heap memory (详见SPARK-11389)。这种模式不�
 - 反之，当存储内存不足时（存储空间不足是指不足以放下一个完整的 Block），也可以借用计算内存空间；但是 Execution 内存的空间被存储内存占用后，是可让对方将占用的部分转存到硬盘，然后“归还”借用的空间。
 - 如果双方的空间都不足时，则存储到硬盘；将内存中的块存储到磁盘的策略是按照 LRU 规则进行的。
 
-> ### 任务内存管理（Task Memory Manager）
+> **`任务内存管理（Task Memory Manager）`**
+
 Executor 中任务以线程的方式执行，各线程共享JVM的资源（即 Execution 内存），任务之间的内存资源没有强隔离（任务没有专用的Heap区域）。因此，可能会出现这样的情况：先到达的任务可能占用较大的内存，而后到的任务因得不到足够的内存而挂起。
 
 在 Spark 任务内存管理中，使用 HashMap 存储任务与其消耗内存的映射关系。每个任务可占用的内存大小为潜在可使用计算内存（ 潜在可使用计算内存为: 初始计算内存 + 可抢占存储内存）的 1/2n ~ 1/n，当剩余内存为小于 1/2n 时，任务将被挂起，直至有其他任务释放执行内存，而满足内存下限 1/2n，任务被唤醒。其中 n 为当前 Executor 中活跃的任务树。
@@ -126,7 +129,8 @@ C = spark.task.cpus
 
 ![image](https://imgconvert.csdnimg.cn/aHR0cDovL2FyZ2FuemhlbmcubGlmZS9pbWcvaW4tcG9zdC9zcGFyay1leGVjdXRvci1tZW1vcnktbG9naWMtMi5wbmc?x-oss-process=image/format,png)
 
-> ## Executor内存参数调优
+> **`Executor内存参数调优`**
+
 1. Executor JVM Used Memory Heuristic
 ```
 现象：配置的executor内存比实际使用的JVM最大使用内存还要大很多。
