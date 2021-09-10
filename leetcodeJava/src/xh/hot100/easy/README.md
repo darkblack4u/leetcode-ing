@@ -13,3 +13,6 @@
 155. [最小栈](MinStack.java)
 160. [相交链表](leetcode160.java) `while (a != b)`
 169. [多数元素](leetcode169.java) `Boyer-Moore 投票算法`
+461. [汉明距离](leetcode461.java)
+543. [二叉树的直径](leetcode543.java) `迭代`
+617. [合并二叉树](leetcode617.java) `bfs/dfs`
