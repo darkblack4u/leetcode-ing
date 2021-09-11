@@ -1,7 +1,6 @@
 package xh.offer.easy;
 
 import java.util.ArrayList;
-import java.util.Collections;
 
 import xh.ListNode;
 
