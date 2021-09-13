@@ -1,5 +1,8 @@
 > 要多回顾的
 
+17. [打印从1到最大的n位数](easy/offer17.java) `大数`
+30. [包含min函数的栈](easy/MinStack.java)
+39. [数组中出现次数超过一半的数字](easy/offer39.java) `投票法`
 52. [两个链表的第一个公共节点](easy/offer52.java) `经典`
 62. [圆圈中最后剩下的数字](easy/offer62.java) `dp`
 65. [不用加减乘除做加法](easy/offer65.java) `位运算` `异或`
@@ -7,6 +10,7 @@
 > ## `EASY`:
 
 03. [数组中重复的数字](easy/offer3.java)
+05. [替换空格](easy/offer5.java)
 06. [从尾到头打印链表](easy/offer6.java)
 09. [用两个栈实现队列](easy/CQueue.java)
 10. [I. 斐波那契数列](easy/offer10A.java)
@@ -14,8 +18,17 @@
 11. [旋转数组的最小数字](easy/offer11.java) `双指针`
 15. [二进制中1的个数](easy/offer15.java) `>>>:无符号右移，忽略符号位，空位都以0补齐`
 17. [打印从1到最大的n位数](easy/offer17.java) `大数`
+18. [删除链表的节点](easy/offer18.java)
+21. [调整数组顺序使奇数位于偶数前面](easy/offer21.java) `快排`
+22. [链表中倒数第k个节点](easy/offer22.java) `双指针`
 24. [反转链表](easy/offer24.java)
 25. [合并两个排序的链表](easy/offer25.java)
+27. [二叉树的镜像](easy/offer27.java)
+28. [对称的二叉树](easy/offer28.java)
+29. [顺时针打印矩阵](easy/offer29.java)
+30. [包含min函数的栈](easy/MinStack.java)
+32. [II. 从上到下打印二叉树 II](easy/offer32B.java)
+39. [数组中出现次数超过一半的数字](easy/offer39.java) `投票法`
 40. [最小的k个数](easy/offer40.java)
 42. [连续子数组的最大和](easy/offer42.java) `dp`
 50. [第一个只出现一次的字符](easy/offer50.java) `Hash`
