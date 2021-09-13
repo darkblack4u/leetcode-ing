@@ -9,10 +9,14 @@
 03. [数组中重复的数字](easy/offer3.java)
 06. [从尾到头打印链表](easy/offer6.java)
 09. [用两个栈实现队列](easy/CQueue.java)
+10. [I. 斐波那契数列](easy/offer10A.java)
+10. [II. 青蛙跳台阶问题](easy/offer10B.java)
 11. [旋转数组的最小数字](easy/offer11.java) `双指针`
 15. [二进制中1的个数](easy/offer15.java) `>>>:无符号右移，忽略符号位，空位都以0补齐`
+17. [打印从1到最大的n位数](easy/offer17.java) `大数`
 24. [反转链表](easy/offer24.java)
 25. [合并两个排序的链表](easy/offer25.java)
+40. [最小的k个数](easy/offer40.java)
 42. [连续子数组的最大和](easy/offer42.java) `dp`
 50. [第一个只出现一次的字符](easy/offer50.java) `Hash`
 52. [两个链表的第一个公共节点](easy/offer52.java) `经典`
