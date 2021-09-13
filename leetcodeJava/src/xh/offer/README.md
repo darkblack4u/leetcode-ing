@@ -1,5 +1,6 @@
 > 要多回顾的
 
+52. [两个链表的第一个公共节点](easy/offer52.java) `经典`
 62. [圆圈中最后剩下的数字](easy/offer62.java) `dp`
 65. [不用加减乘除做加法](easy/offer65.java) `位运算` `异或`
 
@@ -13,6 +14,10 @@
 24. [反转链表](easy/offer24.java)
 25. [合并两个排序的链表](easy/offer25.java)
 42. [连续子数组的最大和](easy/offer42.java) `dp`
+50. [第一个只出现一次的字符](easy/offer50.java) `Hash`
+52. [两个链表的第一个公共节点](easy/offer52.java) `经典`
+53. [I. 在排序数组中查找数字 I](easy/offer53A.java) `二分`
+53. [II. 0～n-1中缺失的数字](easy/offer53B.java) `二分`
 54. [二叉搜索树的第k大节点](easy/offer54.java) **`CV`**
 55. [I. 二叉树的深度](easy/offer55A.java)
 55. [II. 平衡二叉树](easy/offer55B.java)
