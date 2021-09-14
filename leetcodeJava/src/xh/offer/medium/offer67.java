@@ -1,4 +1,4 @@
-package xh.offer;
+package xh.offer.medium;
 
 import java.util.*;
 

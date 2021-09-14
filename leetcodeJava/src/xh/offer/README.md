@@ -1,11 +1,35 @@
 > ## `要多回顾的`
 
 17. [打印从1到最大的n位数](easy/offer17.java) `大数`
+20. [表示数值的字符串](medium/offer20.java) `恶心`
 30. [包含min函数的栈](easy/MinStack.java)
+35. [复杂链表的复制](medium/offer35.java) `HashMap`
 39. [数组中出现次数超过一半的数字](easy/offer39.java) `投票法`
 52. [两个链表的第一个公共节点](easy/offer52.java) `经典`
+56. [I. 数组中数字出现的次数](medium/offer56A.java) `分组异或`
 62. [圆圈中最后剩下的数字](easy/offer62.java) `dp`
+64. [求1+2+…+n](medium/offer64.java) `java短路效应`
 65. [不用加减乘除做加法](easy/offer65.java) `位运算` `异或`
+
+> ## `MEDIUM`
+
+04. [二维数组中的查找](medium/offer4.java)
+07. [重建二叉树](medium/offer7.java)
+12. [矩阵中的路径](medium/offer12.java)
+13. [机器人的运动范围](medium/offer13.java)
+14. [I. 剪绳子](medium/offer14A.java)
+14. [II. 剪绳子 II](medium/offer14B.java)
+16. [数值的整数次方](medium/offer16.java)
+20. [表示数值的字符串](medium/offer20.java) `恶心`
+26. [树的子结构](medium/offer26.java) `递归`
+35. [复杂链表的复制](medium/offer35.java) `HashMap`
+36. [二叉搜索树与双向链表](medium/offer36.java) `中序遍历变形`
+38. [字符串的排列](medium/offer38.java) `回溯`
+49. [丑数](medium/offer49.java)
+56. [I. 数组中数字出现的次数](medium/offer56A.java) `分组异或`
+63. [股票的最大利润](medium/offer63.java)
+64. [求1+2+…+n](medium/offer64.java) `java短路效应`
+67. [把字符串转换成整数](medium/offer67.java)
 
 > ## `EASY`:
 
