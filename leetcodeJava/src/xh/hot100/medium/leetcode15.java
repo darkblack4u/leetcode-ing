@@ -1,6 +1,8 @@
+package xh.hot100.medium;
+
 import java.util.*;
 
-public class lc15 {
+public class leetcode15 {
     /**
      * 15. 三数之和
      * 

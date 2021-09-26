@@ -1,3 +1,18 @@
+> ## `要多回顾的`
+
+5. [最长回文子串](medium/leetcode5.java) `Manacher 算法`
+
+> ## `MEDIUM`
+
+2. [两数相加](medium/leetcode2.java)
+3. [无重复字符的最长子串](medium/leetcode3.java) `双指针`
+5. [最长回文子串](medium/leetcode5.java) `Manacher 算法`
+11. [盛最多水的容器](medium/leetcode11.java)
+15. [三数之和](medium/leetcode15.java)
+17. [电话号码的字母组合](medium/leetcode17.java) `traceBack`
+22. [括号生成](medium/leetcode22.java) `traceBack`
+46. [全排列](medium/leetcode46.java) `traceBack`
+
 > ## `EASY`:
 
 1. [两数之和](easy/leetcode1.java) `hash`
