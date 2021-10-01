@@ -20,8 +20,6 @@
 - 调度策略灵活配置：Fiar Scheduler允许管理员为每个队列单独设置调度策略（当前支持FIFO、Fair或DRF三种）
 - 提高小应用程序响应时间：由于采用了最大最小公平算法，小作业可以快速获取资源并运行完成
 
-> ### `DRF(Dominant Resource Fairness)`
-
 > ### `资源比较器` http://hadoop.apache.org/docs/r2.7.3/hadoop-yarn/hadoop-yarn-site/CapacityScheduler.html
 
 - `DefaultResourceCalculator`：只考虑内存资源
