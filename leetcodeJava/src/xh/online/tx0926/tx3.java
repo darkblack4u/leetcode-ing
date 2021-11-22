@@ -1,7 +1,6 @@
 package xh.online.tx0926;
 
-import java.util.Arrays;
-import java.util.Scanner;
+import java.util.*;
 
 public class tx3 {
     public static void main(String[] args) {
@@ -19,7 +18,7 @@ public class tx3 {
 
     private static int minDiff(int n, int k, int[] a) {
         if (k == n) {
-            return mean(a);
+            return (int) mean(a);
         }
         int maxIndex = 0;
         int minIndex = 0;
@@ -36,8 +35,8 @@ public class tx3 {
         }
         int start = Math.max(0, Math.min(maxIndex, minIndex) - k + 1);
         int end = Math.max(max, min);
-        int l = a[n - 1] - mean(Arrays.copyOfRange(a, 0, k));
-        int r = mean(Arrays.copyOfRange(a, n - k, n)) - a[0];
+        int l = a[n - 1] - (int) mean(Arrays.copyOfRange(a, 0, k));
+        int r = (int) mean(Arrays.copyOfRange(a, n - k, n)) - a[0];
         return l < r ? l : r;
     }
 

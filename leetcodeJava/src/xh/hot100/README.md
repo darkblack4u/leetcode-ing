@@ -1,6 +1,9 @@
 > ## `要多回顾的`
 
 5. [最长回文子串](medium/leetcode5.java) `Manacher 算法`
+538. [把二叉搜索树转换为累加树](medium/leetcode538.java)
+621. [任务调度器](medium/leetcode621.java)
+647. [回文子串](medium/leetcode647.java) `Manacher 算法`
 
 > ## `MEDIUM`
 
@@ -12,6 +15,14 @@
 17. [电话号码的字母组合](medium/leetcode17.java) `traceBack`
 22. [括号生成](medium/leetcode22.java) `traceBack`
 46. [全排列](medium/leetcode46.java) `traceBack`
+438. [找到字符串中所有字母异位词](medium/leetcode438.java)
+494. [目标和](medium/leetcode494.java) `traceBack`
+538. [把二叉搜索树转换为累加树](medium/leetcode538.java) `递归`
+560. [和为K的子数组](medium/leetcode560.java)
+581. [最短无序连续子数组](medium/leetcode581.java)
+621. [任务调度器](medium/leetcode621.java)
+647. [回文子串](medium/leetcode647.java) `Manacher 算法`
+739. [每日温度](medium/leetcode739.java) `Deque单调栈`
 
 > ## `EASY`:
 
