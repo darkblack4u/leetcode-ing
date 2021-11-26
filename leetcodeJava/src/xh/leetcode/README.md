@@ -13,3 +13,5 @@
 `EASY`
 ===
 
+700. [二叉搜索树中的搜索](easy/leetcode700.java)
+
