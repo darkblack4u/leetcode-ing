@@ -1,6 +1,8 @@
 `要多回顾的`
 ===
 
+400. [第N位数字](medium/leetcode400.java)
+
 `HARD`
 ===
 
@@ -10,6 +12,7 @@
 ===
 
 384. [打乱数组](medium/leetcode384.java) 
+400. [第N位数字](medium/leetcode400.java)
 423. [从英文中重建数字](medium/leetcode423.java) 
 519. [随机翻转矩阵](medium/leetcode519.java)
 `EASY`
