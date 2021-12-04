@@ -18,6 +18,7 @@
 
 `EASY`
 ===
+383. [赎金信](easy/leetcode383.java)
 506. [相对名次](easy/leetcode506.java)
 700. [二叉搜索树中的搜索](easy/leetcode700.java)
 1005. [K次取反后最大化的数组和](easy/leetcode1005.java)
