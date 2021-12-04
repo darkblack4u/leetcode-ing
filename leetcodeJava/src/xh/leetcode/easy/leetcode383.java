@@ -4,16 +4,16 @@ public class leetcode383 {
     public boolean canConstruct(String ransomNote, String magazine) {
         char[] r = ransomNote.toCharArray();
         char[] m = magazine.toCharArray();
-        int[] rCount = new int[26];
-        int[] mCount = new int[26];
-        for (char c : r) {
-            rCount[c - 'a']++;
+        if (r.length > m.length) {
+            return false;
         }
+        int[] count = new int[26];
         for (char c : m) {
-            mCount[c - 'a']++;
+            count[c - 'a']++;
         }
-        for (int i = 0; i < 26; i++) {
-            if (rCount[i] > mCount[i]) {
+        for (char c : r) {
+            count[c - 'a']--;
+            if (count[c - 'a'] < 0) {
                 return false;
             }
         }
