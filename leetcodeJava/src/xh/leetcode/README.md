@@ -11,6 +11,7 @@
 `MEDIUM`
 ===
 
+372. [超级次方](medium/leetcode372.java)
 384. [打乱数组](medium/leetcode384.java) 
 400. [第N位数字](medium/leetcode400.java)
 423. [从英文中重建数字](medium/leetcode423.java) 
