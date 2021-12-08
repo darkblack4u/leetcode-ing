@@ -6,6 +6,7 @@
 `HARD`
 ===
 
+689. [](hard/leetcode689.java)
 786. [第 K 个最小的素数分数](hard/leetcode786.java) `合并K个升序链表` `优先队列PriorityQueue`
 
 `MEDIUM`
